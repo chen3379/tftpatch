@@ -6,7 +6,14 @@
     "id": "tft-metatft",
     "status": "ACTIVE",
     "kind": "heartbeat",
-    "check_times_kst": ["01:00", "05:00", "09:00", "13:00", "17:00", "21:00"],
+    "check_times_kst": [
+      "01:00",
+      "05:00",
+      "09:00",
+      "13:00",
+      "17:00",
+      "21:00"
+    ],
     "runtime": "Codex desktop; machine and app must be running"
   },
   "official": {
@@ -20,7 +27,8 @@
       "주사위 굴리기 3→2, 폭우 3→2, 영웅출현 4→2, 하수인 2→5, 잡동사니 가방 2→1, 월광 의식 2→3 골드",
       "나무정령 상징 하향 재적용; 호화로운 정기 구독, U.R.F., 뻗어가는 뿌리, 배를 버려라 버그 수정"
     ],
-    "content_sha256": null
+    "content_sha256": null,
+    "locale_note": "Korean latest update heading: 2026-10-23; English heading: October 22nd. Balance changes match; do not treat the date-label difference as a new patch."
   },
   "metatft": {
     "set": "18",
@@ -40,5 +48,32 @@
   },
   "pending_followups": [],
   "consecutive_failures": 0,
-  "last_error": null
+  "last_error": null,
+  "last_check": {
+    "checked_at_utc": "2026-10-26 16:06:19 UTC",
+    "scheduled_for_utc": "2026-10-26T16:03:08.284Z",
+    "result": "no_new_patch_or_report_due",
+    "official_latest": "18.5",
+    "official_latest_update_ko": "2026-10-23",
+    "metatft_current": "18.5b",
+    "metatft_available_patches": [
+      "18.5b",
+      "18.5",
+      "18.4b"
+    ],
+    "observed_boards": {
+      "comps": 4104240,
+      "units": 4107680
+    },
+    "filters_observed": {
+      "mode": "랭크",
+      "rank": "에메랄드+",
+      "window": "지난 7일"
+    },
+    "snapshot_collected": false,
+    "snapshot_reason": "No new patch, no pending 24h/72h follow-up, and not the 09:00 KST baseline capture.",
+    "next_baseline_capture_kst": "2026-10-27T09:00:00+09:00",
+    "collection_note": "Desktop-width comps view exposes win rate and top4 rate; collect these at the next full snapshot. Earlier narrow-screen captures remain unchanged.",
+    "notification": "DONT_NOTIFY"
+  }
 }
