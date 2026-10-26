@@ -50,8 +50,8 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-10-26 16:06:19 UTC",
-    "scheduled_for_utc": "2026-10-26T16:03:08.284Z",
+    "checked_at_utc": "2026-10-26 20:05:56 UTC",
+    "scheduled_for_utc": "2026-10-26T20:04:11.941Z",
     "result": "no_new_patch_or_report_due",
     "official_latest": "18.5",
     "official_latest_update_ko": "2026-10-23",
@@ -62,8 +62,8 @@
       "18.4b"
     ],
     "observed_boards": {
-      "comps": 4104240,
-      "units": 4107680
+      "comps": 4284496,
+      "units": 4285240
     },
     "filters_observed": {
       "mode": "랭크",
@@ -71,7 +71,7 @@
       "window": "지난 7일"
     },
     "snapshot_collected": false,
-    "snapshot_reason": "No new patch, no pending 24h/72h follow-up, and not the 09:00 KST baseline capture.",
+    "snapshot_reason": "05:00 KST version check: same official revision and MetaTFT patch, no pending follow-ups; next baseline capture is 09:00 KST.",
     "next_baseline_capture_kst": "2026-10-27T09:00:00+09:00",
     "collection_note": "Desktop-width comps view exposes win rate and top4 rate; collect these at the next full snapshot. Earlier narrow-screen captures remain unchanged.",
     "notification": "DONT_NOTIFY"
