@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "repository": "chen3379/tftpatch",
+  "timezone": "Asia/Seoul",
+  "automation": {
+    "id": "tft-metatft",
+    "status": "ACTIVE",
+    "kind": "heartbeat",
+    "check_times_kst": ["01:00", "05:00", "09:00", "13:00", "17:00", "21:00"],
+    "runtime": "Codex desktop; machine and app must be running"
+  },
+  "official": {
+    "patch": "18.5",
+    "url": "https://teamfighttactics.leagueoflegends.com/ko-kr/news/game-updates/teamfight-tactics-patch-18-5/",
+    "published_at": "2026-10-20T18:00:00Z",
+    "latest_update_date_as_displayed": "2026-10-23",
+    "revision_key": "18.5|2026-10-23",
+    "revision_summary": [
+      "덩굴정령 적중 시 회복 5%→4%; 본 패치 방어력 무시 상향 유지",
+      "주사위 굴리기 3→2, 폭우 3→2, 영웅출현 4→2, 하수인 2→5, 잡동사니 가방 2→1, 월광 의식 2→3 골드",
+      "나무정령 상징 하향 재적용; 호화로운 정기 구독, U.R.F., 뻗어가는 뿌리, 배를 버려라 버그 수정"
+    ],
+    "content_sha256": null
+  },
+  "metatft": {
+    "set": "18",
+    "current_patch": "18.5b",
+    "previous_patch": "18.4b",
+    "latest_snapshot": "data/snapshots/18.5b.json",
+    "previous_snapshot": "data/snapshots/18.4b.json",
+    "capture_finalized_at": "2026-10-27T00:14:35+09:00"
+  },
+  "reported": {
+    "18.5|2026-10-23|existing-patch-baseline": {
+      "report": "reports/18.5b-analysis.md",
+      "data_report": "reports/18.5b-data.md",
+      "date_kst": "2026-10-27",
+      "note": "First run on an existing patch more than 72h after its latest update; no redundant 24h/72h backfill notifications."
+    }
+  },
+  "pending_followups": [],
+  "consecutive_failures": 0,
+  "last_error": null
+}
