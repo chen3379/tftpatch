@@ -34,9 +34,16 @@
     "set": "18",
     "current_patch": "18.5b",
     "previous_patch": "18.4b",
-    "latest_snapshot": "data/snapshots/18.5b.json",
+    "latest_snapshot": "data/snapshots/set18-18.5b-20261027-1842.json",
     "previous_snapshot": "data/snapshots/18.4b.json",
-    "capture_finalized_at": "2026-10-27T00:14:35+09:00"
+    "capture_finalized_at": "2026-10-27 09:48:24 UTC",
+    "daily_baselines": {
+      "2026-10-27": {
+        "snapshot": "data/snapshots/set18-18.5b-20261027-1842.json",
+        "report": "reports/20261027-1842-baseline.md",
+        "timing": "Evening catch-up; no 09:00 observation is claimed"
+      }
+    }
   },
   "reported": {
     "18.5|2026-10-23|existing-patch-baseline": {
@@ -50,9 +57,9 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-10-26 20:05:56 UTC",
-    "scheduled_for_utc": "2026-10-26T20:04:11.941Z",
-    "result": "no_new_patch_or_report_due",
+    "checked_at_utc": "2026-10-27 09:48:24 UTC",
+    "scheduled_for_utc": "2026-10-27T09:38:55.587Z",
+    "result": "daily_baseline_saved_no_new_patch",
     "official_latest": "18.5",
     "official_latest_update_ko": "2026-10-23",
     "metatft_current": "18.5b",
@@ -62,18 +69,41 @@
       "18.4b"
     ],
     "observed_boards": {
-      "comps": 4284496,
-      "units": 4285240
+      "comps": 4769184,
+      "units": 4770688
     },
     "filters_observed": {
       "mode": "랭크",
       "rank": "에메랄드+",
       "window": "지난 7일"
     },
-    "snapshot_collected": false,
-    "snapshot_reason": "05:00 KST version check: same official revision and MetaTFT patch, no pending follow-ups; next baseline capture is 09:00 KST.",
-    "next_baseline_capture_kst": "2026-10-27T09:00:00+09:00",
+    "snapshot_collected": true,
+    "snapshot_reason": "09:00 baseline was not recorded; catch-up collected during this evening run.",
+    "next_baseline_capture_kst": "2026-10-28T09:00:00+09:00",
     "collection_note": "Desktop-width comps view exposes win rate and top4 rate; collect these at the next full snapshot. Earlier narrow-screen captures remain unchanged.",
-    "notification": "DONT_NOTIFY"
+    "notification": "DONT_NOTIFY",
+    "observed_rows": {
+      "comps": 47,
+      "units": 65
+    },
+    "comp_completeness": {
+      "stable_counts": [
+        47,
+        47,
+        47
+      ],
+      "dom_rows": 47,
+      "ad_slots": 9,
+      "empty_placeholders": 0
+    },
+    "changes_since_first_18_5b": {
+      "max_comparable_comp_avg": 0.03,
+      "max_unit_avg": 0.01
+    },
+    "quality_notes": [
+      "Tristana/Sivir comp absent from current listing: retain original observation but withhold refreshed conclusion.",
+      "Vanguard Elise definition differs from previous patch: comparison withheld.",
+      "Current desktop capture includes top4 and win rates; previous patch capture lacks these metrics."
+    ]
   }
 }
