@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "revision_key": "18.5|2026-10-27",
+  "checked_at": "2026-10-27T23:54:06Z",
+  "latest_main_patch": "18.5",
+  "official_list_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/",
+  "english_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5/",
+  "korean_url": "https://teamfighttactics.leagueoflegends.com/ko-kr/news/game-updates/teamfight-tactics-patch-18-5/",
+  "english_latest_heading": "OCTOBER 27TH",
+  "korean_latest_heading": "10월 23일",
+  "deployment_time": null,
+  "read_scope": "Official list and complete Korean and English article, including mid-patch updates and final sections; English has newer balance changes.",
+  "changes": [
+    {"target": "Kha'Zix", "metric": "base ability damage", "before": [250,345,500], "after": [230,310,450]},
+    {"target": "Kha'Zix", "metric": "isolated ability damage", "before": [280,390,590], "after": [250,350,530]},
+    {"target": "Brambleback", "metric": "armor ignore AP ratio", "before": 25, "after": 10, "unit": "%"},
+    {"target": "Brambleback", "metric": "base armor ignore", "before": 25, "after": 30, "unit": "%"},
+    {"target": "Hand of Justice", "metric": "omnivamp", "before": 15, "after": 12, "unit": "%"},
+    {"target": "Radiant Hand of Justice", "metric": "omnivamp", "before": 30, "after": 25, "unit": "%"}
+  ],
+  "locale_note": "Use the October 27 English update for the newest live changes; Korean localization has not yet incorporated it. Do not mistake earlier Korean/English B-patch date differences for a separate revision."
+}
