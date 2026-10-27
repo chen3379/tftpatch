@@ -18,32 +18,35 @@
   },
   "official": {
     "patch": "18.5",
-    "url": "https://teamfighttactics.leagueoflegends.com/ko-kr/news/game-updates/teamfight-tactics-patch-18-5/",
+    "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5/",
     "published_at": "2026-10-20T18:00:00Z",
-    "latest_update_date_as_displayed": "2026-10-23",
-    "revision_key": "18.5|2026-10-23",
+    "latest_update_date_as_displayed": "2026-10-27",
+    "revision_key": "18.5|2026-10-27",
     "revision_summary": [
-      "덩굴정령 적중 시 회복 5%→4%; 본 패치 방어력 무시 상향 유지",
-      "주사위 굴리기 3→2, 폭우 3→2, 영웅출현 4→2, 하수인 2→5, 잡동사니 가방 2→1, 월광 의식 2→3 골드",
-      "나무정령 상징 하향 재적용; 호화로운 정기 구독, U.R.F., 뻗어가는 뿌리, 배를 버려라 버그 수정"
+      "카직스 기본 피해량 250/345/500→230/310/450, 고립 피해량 280/390/590→250/350/530",
+      "덩굴정령 방어력 무시: 주문력 계수 25%→10%, 기본 수치 25%→30%",
+      "정의의 손길 모든 피해 흡혈 15%→12%, 찬란한 버전 30%→25%"
     ],
     "content_sha256": null,
-    "locale_note": "Korean latest update heading: 2026-10-23; English heading: October 22nd. Balance changes match; do not treat the date-label difference as a new patch."
+    "locale_note": "October 27 update is present in the English official article; Korean article still ends at October 23. Latest changes are translated from English. Exact deployment time is unconfirmed.",
+    "korean_url": "https://teamfighttactics.leagueoflegends.com/ko-kr/news/game-updates/teamfight-tactics-patch-18-5/",
+    "korean_latest_update_date_as_displayed": "2026-10-23"
   },
   "metatft": {
     "set": "18",
-    "current_patch": "18.5b",
-    "previous_patch": "18.4b",
-    "latest_snapshot": "data/snapshots/set18-18.5b-20261027-1842.json",
-    "previous_snapshot": "data/snapshots/18.4b.json",
-    "capture_finalized_at": "2026-10-27 09:48:24 UTC",
+    "current_patch": "18.5c",
+    "previous_patch": "18.5b",
+    "latest_snapshot": "data/snapshots/set18-18.5c-20261028-0854.json",
+    "previous_snapshot": "data/snapshots/set18-18.5b-20261028-0854.json",
+    "capture_finalized_at": "2026-10-27T23:56:52.137Z",
     "daily_baselines": {
       "2026-10-27": {
         "snapshot": "data/snapshots/set18-18.5b-20261027-1842.json",
         "report": "reports/20261027-1842-baseline.md",
         "timing": "Evening catch-up; no 09:00 observation is claimed"
       }
-    }
+    },
+    "current_revision_detected_at": "2026-10-27T23:54:06Z"
   },
   "reported": {
     "18.5|2026-10-23|existing-patch-baseline": {
@@ -51,52 +54,57 @@
       "data_report": "reports/18.5b-data.md",
       "date_kst": "2026-10-27",
       "note": "First run on an existing patch more than 72h after its latest update; no redundant 24h/72h backfill notifications."
+    },
+    "18.5|2026-10-27|initial": {
+      "report": "reports/18.5c-initial-20261028.md",
+      "comparison": "data/snapshots/comparison-18.5b-18.5c-20261028-0854.json",
+      "current_snapshot": "data/snapshots/set18-18.5c-20261028-0854.json",
+      "previous_snapshot": "data/snapshots/set18-18.5b-20261028-0854.json",
+      "date_kst": "2026-10-28",
+      "data_commit": "8fae878835df351bd072f3fcf3afa39f658fcb9f",
+      "verified_remote_files": 12,
+      "note": "Initial observation after detecting live 18.5c and October 27 English official update. Korean localization pending."
     }
   },
-  "pending_followups": [],
+  "pending_followups": [
+    {
+      "revision_key": "18.5|2026-10-27",
+      "metatft_patch": "18.5c",
+      "stage": "24h",
+      "anchor_at_utc": "2026-10-27T23:54:06Z",
+      "anchor_kind": "detection; exact deployment time unconfirmed",
+      "due_at_utc": "2026-10-28T23:54:06.000Z",
+      "status": "pending"
+    },
+    {
+      "revision_key": "18.5|2026-10-27",
+      "metatft_patch": "18.5c",
+      "stage": "72h",
+      "anchor_at_utc": "2026-10-27T23:54:06Z",
+      "anchor_kind": "detection; exact deployment time unconfirmed",
+      "due_at_utc": "2026-10-30T23:54:06.000Z",
+      "status": "pending"
+    }
+  ],
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-10-27 16:02:11 UTC",
-    "scheduled_for_utc": "2026-10-27T16:01:01.669Z",
-    "result": "no_new_patch_or_report_due",
+    "checked_at_utc": "2026-10-27T23:58:27Z",
+    "scheduled_for_utc": "2026-10-27T23:48:32.217Z",
+    "result": "new_patch_initial_report_saved",
     "official_latest": "18.5",
+    "official_latest_update_en": "2026-10-27",
     "official_latest_update_ko": "2026-10-23",
-    "metatft_current": "18.5b",
+    "metatft_current": "18.5c",
     "metatft_available_patches": [
+      "18.5c",
       "18.5b",
       "18.5",
       "18.4b"
     ],
     "observed_boards": {
-      "comps": 5119472,
-      "units": 5122008
-    },
-    "filters_observed": {
-      "mode": "랭크",
-      "rank": "에메랄드+",
-      "window": "지난 7일"
-    },
-    "snapshot_collected": false,
-    "snapshot_reason": "01:00 KST version check; official revision unchanged, no pending follow-ups, and today's 09:00 baseline capture is not due yet.",
-    "next_baseline_capture_kst": "2026-10-28T09:00:00+09:00",
-    "notification": "DONT_NOTIFY"
-  },
-  "last_full_capture": {
-    "checked_at_utc": "2026-10-27 09:48:24 UTC",
-    "scheduled_for_utc": "2026-10-27T09:38:55.587Z",
-    "result": "daily_baseline_saved_no_new_patch",
-    "official_latest": "18.5",
-    "official_latest_update_ko": "2026-10-23",
-    "metatft_current": "18.5b",
-    "metatft_available_patches": [
-      "18.5b",
-      "18.5",
-      "18.4b"
-    ],
-    "observed_boards": {
-      "comps": 4769184,
-      "units": 4770688
+      "comps": 164768,
+      "units": 166552
     },
     "filters_observed": {
       "mode": "랭크",
@@ -104,32 +112,101 @@
       "window": "지난 7일"
     },
     "snapshot_collected": true,
-    "snapshot_reason": "09:00 baseline was not recorded; catch-up collected during this evening run.",
+    "snapshot_reason": "New patch detection; full current and previous captures taken before 09:00 KST. This is not a claimed 09:00 baseline observation.",
     "next_baseline_capture_kst": "2026-10-28T09:00:00+09:00",
-    "collection_note": "Desktop-width comps view exposes win rate and top4 rate; collect these at the next full snapshot. Earlier narrow-screen captures remain unchanged.",
-    "notification": "DONT_NOTIFY",
+    "notification": "NOTIFY",
     "observed_rows": {
-      "comps": 47,
+      "comps": 46,
       "units": 65
     },
     "comp_completeness": {
       "stable_counts": [
-        47,
-        47,
-        47
+        46,
+        46,
+        46
       ],
-      "dom_rows": 47,
+      "dom_rows": 46,
+      "rendered_stat_rows": 46,
       "ad_slots": 9,
       "empty_placeholders": 0
     },
-    "changes_since_first_18_5b": {
-      "max_comparable_comp_avg": 0.03,
-      "max_unit_avg": 0.01
-    },
+    "partial_capture_recovered": true,
     "quality_notes": [
-      "Tristana/Sivir comp absent from current listing: retain original observation but withhold refreshed conclusion.",
-      "Vanguard Elise definition differs from previous patch: comparison withheld.",
-      "Current desktop capture includes top4 and win rates; previous patch capture lacks these metrics."
+      "Three unloaded statistics rows in the first current-patch attempt were detected by parser validation and recollected. Final source has 46 actual statistics rows.",
+      "Comp sample sizes unavailable; comp shifts remain exploratory.",
+      "Korean article localization lags English update.",
+      "09:00 daily baseline remains due separately."
     ]
+  },
+  "last_full_capture": {
+    "checked_at_utc": "2026-10-27T23:58:27Z",
+    "scheduled_for_utc": "2026-10-27T23:48:32.217Z",
+    "result": "new_patch_initial_report_saved",
+    "official_latest": "18.5",
+    "official_latest_update_en": "2026-10-27",
+    "official_latest_update_ko": "2026-10-23",
+    "metatft_current": "18.5c",
+    "metatft_available_patches": [
+      "18.5c",
+      "18.5b",
+      "18.5",
+      "18.4b"
+    ],
+    "observed_boards": {
+      "comps": 164768,
+      "units": 166552
+    },
+    "filters_observed": {
+      "mode": "랭크",
+      "rank": "에메랄드+",
+      "window": "지난 7일"
+    },
+    "snapshot_collected": true,
+    "snapshot_reason": "New patch detection; full current and previous captures taken before 09:00 KST. This is not a claimed 09:00 baseline observation.",
+    "next_baseline_capture_kst": "2026-10-28T09:00:00+09:00",
+    "notification": "NOTIFY",
+    "observed_rows": {
+      "comps": 46,
+      "units": 65
+    },
+    "comp_completeness": {
+      "stable_counts": [
+        46,
+        46,
+        46
+      ],
+      "dom_rows": 46,
+      "rendered_stat_rows": 46,
+      "ad_slots": 9,
+      "empty_placeholders": 0
+    },
+    "partial_capture_recovered": true,
+    "quality_notes": [
+      "Three unloaded statistics rows in the first current-patch attempt were detected by parser validation and recollected. Final source has 46 actual statistics rows.",
+      "Comp sample sizes unavailable; comp shifts remain exploratory.",
+      "Korean article localization lags English update.",
+      "09:00 daily baseline remains due separately."
+    ]
+  },
+  "official_revision_history": {
+    "18.5|2026-10-23": {
+      "patch": "18.5",
+      "url": "https://teamfighttactics.leagueoflegends.com/ko-kr/news/game-updates/teamfight-tactics-patch-18-5/",
+      "published_at": "2026-10-20T18:00:00Z",
+      "latest_update_date_as_displayed": "2026-10-23",
+      "revision_key": "18.5|2026-10-23",
+      "revision_summary": [
+        "덩굴정령 적중 시 회복 5%→4%; 본 패치 방어력 무시 상향 유지",
+        "주사위 굴리기 3→2, 폭우 3→2, 영웅출현 4→2, 하수인 2→5, 잡동사니 가방 2→1, 월광 의식 2→3 골드",
+        "나무정령 상징 하향 재적용; 호화로운 정기 구독, U.R.F., 뻗어가는 뿌리, 배를 버려라 버그 수정"
+      ],
+      "content_sha256": null,
+      "locale_note": "Korean latest update heading: 2026-10-23; English heading: October 22nd. Balance changes match; do not treat the date-label difference as a new patch."
+    }
+  },
+  "remote_sync": {
+    "status": "data_verified",
+    "data_commit": "8fae878835df351bd072f3fcf3afa39f658fcb9f",
+    "verified_files": 12
   }
 }
