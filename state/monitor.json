@@ -97,8 +97,8 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-10-28 13:26:02 UTC",
-    "scheduled_for_utc": "2026-10-28T13:23:29.220Z",
+    "checked_at_utc": "2026-10-28 16:02:40 UTC",
+    "scheduled_for_utc": "2026-10-28T16:00:31.584Z",
     "result": "no_new_patch_or_report_due",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
@@ -115,12 +115,12 @@
       "18.5"
     ],
     "observed_boards": {
-      "comps": 722000,
-      "units": 718096
+      "comps": 887040,
+      "units": 888480
     },
     "previous_patch_boards": {
-      "comps": 5242128,
-      "units": 5242128
+      "comps": 5243048,
+      "units": 5243048
     },
     "filters_observed": {
       "mode": "랭크",
@@ -128,16 +128,14 @@
       "window": "지난 7일"
     },
     "snapshot_collected": false,
-    "snapshot_reason": "Evening version check at 22:23 KST. Official balance revision unchanged; today's 09:00 baseline is already saved; 24h/72h follow-ups are not due.",
+    "snapshot_reason": "01:00 KST version check. Official balance revision unchanged. October 29 baseline is not due until 09:00 KST; 24h/72h observations are not due yet.",
     "next_followup_due_utc": "2026-10-28T23:54:06.000Z",
     "next_baseline_capture_kst": "2026-10-29T09:00:00+09:00",
     "notification": "DONT_NOTIFY",
     "quality_notes": [
-      "Latest live main patch verified from official patch list and complete Korean/English articles.",
-      "Current 18.5c and previous 18.5b separately selected on both MetaTFT pages with matching filters.",
-      "18.4b is no longer offered in the rolling filter; its previously saved snapshots remain preserved. Active comparison still uses available 18.5b.",
-      "Only version/filter/header checks performed; no fresh full-table statistics or conclusion-reversal assessment claimed.",
-      "Comps and units board totals observed independently; their refresh times can differ.",
+      "Complete official Korean and English notes, including additional balance and bug-fix entries, checked against recorded revision.",
+      "Both MetaTFT pages separately confirmed current 18.5c and previous 18.5b with matching filters.",
+      "Header board totals are fresh; no new full-table capture or conclusion-reversal assessment claimed.",
       "Korean localization still ends at October 23; English latest update remains October 27."
     ]
   },
