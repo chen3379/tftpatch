@@ -97,12 +97,17 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-10-28T00:05:40Z",
-    "scheduled_for_utc": "2026-10-28T00:00:02.362Z",
-    "result": "daily_baseline_saved_no_new_patch",
+    "checked_at_utc": "2026-10-28T04:01:07Z",
+    "scheduled_for_utc": "2026-10-28T03:59:05.849Z",
+    "result": "no_new_patch_or_report_due",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
     "official_latest_update_ko": "2026-10-23",
+    "official_read_scope": {
+      "korean_lines": 312,
+      "english_lines": 325,
+      "complete": true
+    },
     "metatft_current": "18.5c",
     "metatft_available_patches": [
       "18.5c",
@@ -111,48 +116,28 @@
       "18.4b"
     ],
     "observed_boards": {
-      "comps": 168848,
-      "units": 170000
+      "comps": 292896,
+      "units": 293224
     },
     "previous_patch_boards": {
-      "comps": 5229440,
-      "units": 5229488
+      "comps": 5235792,
+      "units": 5235792
     },
     "filters_observed": {
       "mode": "랭크",
       "rank": "에메랄드+",
       "window": "지난 7일"
     },
-    "snapshot_collected": true,
-    "snapshot_reason": "Scheduled 09:00 KST baseline; current and previous patches freshly collected. Initial report already delivered; 24h/72h follow-ups not due.",
+    "snapshot_collected": false,
+    "snapshot_reason": "13:00 KST version check. Official balance revision unchanged; today's 09:00 baseline was already collected. 24h/72h observations are not due.",
+    "next_followup_due_utc": "2026-10-28T23:54:06.000Z",
     "next_baseline_capture_kst": "2026-10-29T09:00:00+09:00",
     "notification": "DONT_NOTIFY",
-    "observed_rows": {
-      "comps": 46,
-      "units": 65
-    },
-    "comp_completeness": {
-      "stable_counts": [
-        46,
-        46,
-        46
-      ],
-      "dom_rows": 46,
-      "rendered_stat_rows": 46,
-      "ad_slots": 9,
-      "empty_placeholders": 0
-    },
-    "changes_since_initial_18_5c": {
-      "max_comparable_comp_avg": 0.04,
-      "max_unit_avg": 0.01,
-      "major_conclusion_reversal": false
-    },
     "quality_notes": [
-      "Both patches have 46 fully rendered and parsed comp rows and 65 units.",
-      "Korean official article still lags October 27 English changes.",
-      "Comp sample sizes unavailable; comp shifts remain exploratory.",
-      "Minimum current unit sample 2919; all unit rows exceed the 1000-sample floor.",
-      "No new report stage or significant reversal; do not repeat initial notification."
+      "Latest live main patch verified from official patch list; complete Korean and English note checked.",
+      "Both MetaTFT pages confirmed single current 18.5c and previous 18.5b with matching filters.",
+      "Header counts are fresh observations; no new full-table capture or conclusion-reversal assessment is claimed.",
+      "Korean localization remains behind the October 27 English update."
     ]
   },
   "last_full_capture": {
