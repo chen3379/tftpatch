@@ -36,14 +36,22 @@
     "set": "18",
     "current_patch": "18.5c",
     "previous_patch": "18.5b",
-    "latest_snapshot": "data/snapshots/set18-18.5c-20261028-0854.json",
-    "previous_snapshot": "data/snapshots/set18-18.5b-20261028-0854.json",
-    "capture_finalized_at": "2026-10-27T23:56:52.137Z",
+    "latest_snapshot": "data/snapshots/set18-18.5c-20261028-0900.json",
+    "previous_snapshot": "data/snapshots/set18-18.5b-20261028-0900.json",
+    "capture_finalized_at": "2026-10-28T00:04:26.535Z",
     "daily_baselines": {
       "2026-10-27": {
         "snapshot": "data/snapshots/set18-18.5b-20261027-1842.json",
         "report": "reports/20261027-1842-baseline.md",
         "timing": "Evening catch-up; no 09:00 observation is claimed"
+      },
+      "2026-10-28": {
+        "snapshot": "data/snapshots/set18-18.5c-20261028-0900.json",
+        "previous_snapshot": "data/snapshots/set18-18.5b-20261028-0900.json",
+        "report": "reports/20261028-0900-baseline.md",
+        "comparison": "data/snapshots/comparison-18.5b-18.5c-20261028-0900.json",
+        "timing": "09:00 KST scheduled run; actual page captures 09:02:25–09:04:26 KST",
+        "data_commit": "6b26941efcef993050784dda3bb8eefc3211add4"
       }
     },
     "current_revision_detected_at": "2026-10-27T23:54:06Z"
@@ -89,9 +97,9 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-10-27T23:58:27Z",
-    "scheduled_for_utc": "2026-10-27T23:48:32.217Z",
-    "result": "new_patch_initial_report_saved",
+    "checked_at_utc": "2026-10-28T00:05:40Z",
+    "scheduled_for_utc": "2026-10-28T00:00:02.362Z",
+    "result": "daily_baseline_saved_no_new_patch",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
     "official_latest_update_ko": "2026-10-23",
@@ -103,8 +111,12 @@
       "18.4b"
     ],
     "observed_boards": {
-      "comps": 164768,
-      "units": 166552
+      "comps": 168848,
+      "units": 170000
+    },
+    "previous_patch_boards": {
+      "comps": 5229440,
+      "units": 5229488
     },
     "filters_observed": {
       "mode": "랭크",
@@ -112,9 +124,9 @@
       "window": "지난 7일"
     },
     "snapshot_collected": true,
-    "snapshot_reason": "New patch detection; full current and previous captures taken before 09:00 KST. This is not a claimed 09:00 baseline observation.",
-    "next_baseline_capture_kst": "2026-10-28T09:00:00+09:00",
-    "notification": "NOTIFY",
+    "snapshot_reason": "Scheduled 09:00 KST baseline; current and previous patches freshly collected. Initial report already delivered; 24h/72h follow-ups not due.",
+    "next_baseline_capture_kst": "2026-10-29T09:00:00+09:00",
+    "notification": "DONT_NOTIFY",
     "observed_rows": {
       "comps": 46,
       "units": 65
@@ -130,18 +142,23 @@
       "ad_slots": 9,
       "empty_placeholders": 0
     },
-    "partial_capture_recovered": true,
+    "changes_since_initial_18_5c": {
+      "max_comparable_comp_avg": 0.04,
+      "max_unit_avg": 0.01,
+      "major_conclusion_reversal": false
+    },
     "quality_notes": [
-      "Three unloaded statistics rows in the first current-patch attempt were detected by parser validation and recollected. Final source has 46 actual statistics rows.",
+      "Both patches have 46 fully rendered and parsed comp rows and 65 units.",
+      "Korean official article still lags October 27 English changes.",
       "Comp sample sizes unavailable; comp shifts remain exploratory.",
-      "Korean article localization lags English update.",
-      "09:00 daily baseline remains due separately."
+      "Minimum current unit sample 2919; all unit rows exceed the 1000-sample floor.",
+      "No new report stage or significant reversal; do not repeat initial notification."
     ]
   },
   "last_full_capture": {
-    "checked_at_utc": "2026-10-27T23:58:27Z",
-    "scheduled_for_utc": "2026-10-27T23:48:32.217Z",
-    "result": "new_patch_initial_report_saved",
+    "checked_at_utc": "2026-10-28T00:05:40Z",
+    "scheduled_for_utc": "2026-10-28T00:00:02.362Z",
+    "result": "daily_baseline_saved_no_new_patch",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
     "official_latest_update_ko": "2026-10-23",
@@ -153,8 +170,12 @@
       "18.4b"
     ],
     "observed_boards": {
-      "comps": 164768,
-      "units": 166552
+      "comps": 168848,
+      "units": 170000
+    },
+    "previous_patch_boards": {
+      "comps": 5229440,
+      "units": 5229488
     },
     "filters_observed": {
       "mode": "랭크",
@@ -162,9 +183,9 @@
       "window": "지난 7일"
     },
     "snapshot_collected": true,
-    "snapshot_reason": "New patch detection; full current and previous captures taken before 09:00 KST. This is not a claimed 09:00 baseline observation.",
-    "next_baseline_capture_kst": "2026-10-28T09:00:00+09:00",
-    "notification": "NOTIFY",
+    "snapshot_reason": "Scheduled 09:00 KST baseline; current and previous patches freshly collected. Initial report already delivered; 24h/72h follow-ups not due.",
+    "next_baseline_capture_kst": "2026-10-29T09:00:00+09:00",
+    "notification": "DONT_NOTIFY",
     "observed_rows": {
       "comps": 46,
       "units": 65
@@ -180,12 +201,17 @@
       "ad_slots": 9,
       "empty_placeholders": 0
     },
-    "partial_capture_recovered": true,
+    "changes_since_initial_18_5c": {
+      "max_comparable_comp_avg": 0.04,
+      "max_unit_avg": 0.01,
+      "major_conclusion_reversal": false
+    },
     "quality_notes": [
-      "Three unloaded statistics rows in the first current-patch attempt were detected by parser validation and recollected. Final source has 46 actual statistics rows.",
+      "Both patches have 46 fully rendered and parsed comp rows and 65 units.",
+      "Korean official article still lags October 27 English changes.",
       "Comp sample sizes unavailable; comp shifts remain exploratory.",
-      "Korean article localization lags English update.",
-      "09:00 daily baseline remains due separately."
+      "Minimum current unit sample 2919; all unit rows exceed the 1000-sample floor.",
+      "No new report stage or significant reversal; do not repeat initial notification."
     ]
   },
   "official_revision_history": {
@@ -206,7 +232,7 @@
   },
   "remote_sync": {
     "status": "data_verified",
-    "data_commit": "8fae878835df351bd072f3fcf3afa39f658fcb9f",
-    "verified_files": 12
+    "data_commit": "6b26941efcef993050784dda3bb8eefc3211add4",
+    "verified_files": 9
   }
 }
