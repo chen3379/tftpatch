@@ -97,16 +97,16 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-10-28 16:02:40 UTC",
-    "scheduled_for_utc": "2026-10-28T16:00:31.584Z",
+    "checked_at_utc": "2026-10-28T23:43:57Z",
+    "scheduled_for_utc": "2026-10-28T23:42:33.437Z",
     "result": "no_new_patch_or_report_due",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
     "official_latest_update_ko": "2026-10-23",
     "official_read_scope": {
       "korean_lines": 312,
-      "english_lines": 325,
-      "complete": true
+      "korean_complete": true,
+      "english_scope": "Latest mid-patch updates, including October 27 and October 22 entries"
     },
     "metatft_current": "18.5c",
     "metatft_available_patches": [
@@ -115,12 +115,12 @@
       "18.5"
     ],
     "observed_boards": {
-      "comps": 887040,
-      "units": 888480
+      "comps": 1160344,
+      "units": 1160472
     },
     "previous_patch_boards": {
-      "comps": 5243048,
-      "units": 5243048
+      "comps": 5243408,
+      "units": 5243408
     },
     "filters_observed": {
       "mode": "랭크",
@@ -128,15 +128,15 @@
       "window": "지난 7일"
     },
     "snapshot_collected": false,
-    "snapshot_reason": "01:00 KST version check. Official balance revision unchanged. October 29 baseline is not due until 09:00 KST; 24h/72h observations are not due yet.",
+    "snapshot_reason": "Early morning check at 08:42 KST. No new official balance revision or MetaTFT patch. The 24h anchor at 08:54:06 KST and daily 09:00 capture are still in the future; neither is marked complete early.",
     "next_followup_due_utc": "2026-10-28T23:54:06.000Z",
     "next_baseline_capture_kst": "2026-10-29T09:00:00+09:00",
     "notification": "DONT_NOTIFY",
     "quality_notes": [
-      "Complete official Korean and English notes, including additional balance and bug-fix entries, checked against recorded revision.",
-      "Both MetaTFT pages separately confirmed current 18.5c and previous 18.5b with matching filters.",
-      "Header board totals are fresh; no new full-table capture or conclusion-reversal assessment claimed.",
-      "Korean localization still ends at October 23; English latest update remains October 27."
+      "Official latest main patch verified from the patch list; Korean article read through its final sections and newer English mid-patch entries checked.",
+      "Current 18.5c and previous 18.5b separately selected on comps and units with matching filters.",
+      "Previous-unit header was read again after loading finished; stale current-patch board total was not recorded as previous-patch data.",
+      "No full-table capture or conclusion-reversal assessment claimed. Existing snapshots and pending follow-ups are preserved."
     ]
   },
   "last_full_capture": {
