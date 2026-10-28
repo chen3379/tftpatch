@@ -97,8 +97,8 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-10-28T04:01:07Z",
-    "scheduled_for_utc": "2026-10-28T03:59:05.849Z",
+    "checked_at_utc": "2026-10-28 13:26:02 UTC",
+    "scheduled_for_utc": "2026-10-28T13:23:29.220Z",
     "result": "no_new_patch_or_report_due",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
@@ -112,16 +112,15 @@
     "metatft_available_patches": [
       "18.5c",
       "18.5b",
-      "18.5",
-      "18.4b"
+      "18.5"
     ],
     "observed_boards": {
-      "comps": 292896,
-      "units": 293224
+      "comps": 722000,
+      "units": 718096
     },
     "previous_patch_boards": {
-      "comps": 5235792,
-      "units": 5235792
+      "comps": 5242128,
+      "units": 5242128
     },
     "filters_observed": {
       "mode": "랭크",
@@ -129,15 +128,17 @@
       "window": "지난 7일"
     },
     "snapshot_collected": false,
-    "snapshot_reason": "13:00 KST version check. Official balance revision unchanged; today's 09:00 baseline was already collected. 24h/72h observations are not due.",
+    "snapshot_reason": "Evening version check at 22:23 KST. Official balance revision unchanged; today's 09:00 baseline is already saved; 24h/72h follow-ups are not due.",
     "next_followup_due_utc": "2026-10-28T23:54:06.000Z",
     "next_baseline_capture_kst": "2026-10-29T09:00:00+09:00",
     "notification": "DONT_NOTIFY",
     "quality_notes": [
-      "Latest live main patch verified from official patch list; complete Korean and English note checked.",
-      "Both MetaTFT pages confirmed single current 18.5c and previous 18.5b with matching filters.",
-      "Header counts are fresh observations; no new full-table capture or conclusion-reversal assessment is claimed.",
-      "Korean localization remains behind the October 27 English update."
+      "Latest live main patch verified from official patch list and complete Korean/English articles.",
+      "Current 18.5c and previous 18.5b separately selected on both MetaTFT pages with matching filters.",
+      "18.4b is no longer offered in the rolling filter; its previously saved snapshots remain preserved. Active comparison still uses available 18.5b.",
+      "Only version/filter/header checks performed; no fresh full-table statistics or conclusion-reversal assessment claimed.",
+      "Comps and units board totals observed independently; their refresh times can differ.",
+      "Korean localization still ends at October 23; English latest update remains October 27."
     ]
   },
   "last_full_capture": {
