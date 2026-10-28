@@ -1,0 +1,71 @@
+{
+  "scheduled_for_utc": "2026-10-28T00:00:02.362Z",
+  "official_revision": "18.5|2026-10-27",
+  "available_patches": [
+    "18.5c",
+    "18.5b",
+    "18.5",
+    "18.4b"
+  ],
+  "purpose": "09:00 KST daily baseline; actual page times recorded separately",
+  "pages": {
+    "18.5c": {
+      "comps": {
+        "file": "data/raw/comps-set18-18.5c-20261028-0900.txt",
+        "captured_at": "2026-10-28T00:02:25.645Z",
+        "stable_counts": [
+          5,
+          9,
+          18,
+          23,
+          28,
+          33,
+          37,
+          41,
+          46,
+          46,
+          46
+        ],
+        "ads": 9,
+        "children": 55,
+        "empty": 0,
+        "rendered_stat_rows": 46,
+        "rows": 46
+      },
+      "units": {
+        "file": "data/raw/units-set18-18.5c-20261028-0900.txt",
+        "captured_at": "2026-10-28T00:04:17.114Z",
+        "rows": 65
+      }
+    },
+    "18.5b": {
+      "comps": {
+        "file": "data/raw/comps-set18-18.5b-20261028-0900.txt",
+        "captured_at": "2026-10-28T00:04:08.447Z",
+        "stable_counts": [
+          46,
+          46,
+          46,
+          46,
+          46,
+          46,
+          46,
+          46,
+          46,
+          46,
+          46
+        ],
+        "ads": 9,
+        "children": 55,
+        "empty": 0,
+        "rendered_stat_rows": 46,
+        "rows": 46
+      },
+      "units": {
+        "file": "data/raw/units-set18-18.5b-20261028-0900.txt",
+        "captured_at": "2026-10-28T00:04:26.535Z",
+        "rows": 65
+      }
+    }
+  }
+}
