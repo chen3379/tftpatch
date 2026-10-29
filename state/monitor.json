@@ -36,9 +36,9 @@
     "set": "18",
     "current_patch": "18.5c",
     "previous_patch": "18.5b",
-    "latest_snapshot": "data/snapshots/set18-18.5c-20261028-0900.json",
-    "previous_snapshot": "data/snapshots/set18-18.5b-20261028-0900.json",
-    "capture_finalized_at": "2026-10-28T00:04:26.535Z",
+    "latest_snapshot": "data/snapshots/set18-18.5c-20261029-0900.json",
+    "previous_snapshot": "data/snapshots/set18-18.5b-20261029-0900.json",
+    "capture_finalized_at": "2026-10-29T00:04:10.687Z",
     "daily_baselines": {
       "2026-10-27": {
         "snapshot": "data/snapshots/set18-18.5b-20261027-1842.json",
@@ -52,6 +52,14 @@
         "comparison": "data/snapshots/comparison-18.5b-18.5c-20261028-0900.json",
         "timing": "09:00 KST scheduled run; actual page captures 09:02:25–09:04:26 KST",
         "data_commit": "6b26941efcef993050784dda3bb8eefc3211add4"
+      },
+      "2026-10-29": {
+        "snapshot": "data/snapshots/set18-18.5c-20261029-0900.json",
+        "previous_snapshot": "data/snapshots/set18-18.5b-20261029-0900.json",
+        "report": "reports/18.5c-24h-20261029.md",
+        "comparison": "data/snapshots/comparison-18.5b-18.5c-20261029-0900.json",
+        "timing": "09:00 KST scheduled run; actual page captures 09:01:55–09:04:10 KST; also fulfills 24h observation",
+        "data_commit": "881ad3198035f854d042e6ded96f3ddea46bc360"
       }
     },
     "current_revision_detected_at": "2026-10-27T23:54:06Z"
@@ -72,18 +80,23 @@
       "data_commit": "8fae878835df351bd072f3fcf3afa39f658fcb9f",
       "verified_remote_files": 12,
       "note": "Initial observation after detecting live 18.5c and October 27 English official update. Korean localization pending."
-    }
-  },
-  "pending_followups": [
-    {
-      "revision_key": "18.5|2026-10-27",
-      "metatft_patch": "18.5c",
-      "stage": "24h",
+    },
+    "18.5|2026-10-27|24h": {
+      "report": "reports/18.5c-24h-20261029.md",
+      "comparison": "data/snapshots/comparison-18.5b-18.5c-20261029-0900.json",
+      "current_snapshot": "data/snapshots/set18-18.5c-20261029-0900.json",
+      "previous_snapshot": "data/snapshots/set18-18.5b-20261029-0900.json",
+      "date_kst": "2026-10-29",
+      "data_commit": "881ad3198035f854d042e6ded96f3ddea46bc360",
+      "verified_remote_files": 9,
       "anchor_at_utc": "2026-10-27T23:54:06Z",
       "anchor_kind": "detection; exact deployment time unconfirmed",
       "due_at_utc": "2026-10-28T23:54:06.000Z",
-      "status": "pending"
-    },
+      "capture_finalized_at": "2026-10-29T00:04:10.687Z",
+      "completed_at_utc": "2026-10-29T00:08:20Z"
+    }
+  },
+  "pending_followups": [
     {
       "revision_key": "18.5|2026-10-27",
       "metatft_patch": "18.5c",
@@ -97,16 +110,15 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-10-28T23:43:57Z",
-    "scheduled_for_utc": "2026-10-28T23:42:33.437Z",
-    "result": "no_new_patch_or_report_due",
+    "checked_at_utc": "2026-10-29T00:08:20Z",
+    "scheduled_for_utc": "2026-10-29T00:00:03.725Z",
+    "result": "24h_observation_and_daily_baseline_saved",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
     "official_latest_update_ko": "2026-10-23",
     "official_read_scope": {
-      "korean_lines": 312,
       "korean_complete": true,
-      "english_scope": "Latest mid-patch updates, including October 27 and October 22 entries"
+      "english_scope": "Latest mid-patch updates including October 27; no newer changes observed"
     },
     "metatft_current": "18.5c",
     "metatft_available_patches": [
@@ -115,8 +127,8 @@
       "18.5"
     ],
     "observed_boards": {
-      "comps": 1160344,
-      "units": 1160472
+      "comps": 1166104,
+      "units": 1166992
     },
     "previous_patch_boards": {
       "comps": 5243408,
@@ -125,51 +137,11 @@
     "filters_observed": {
       "mode": "랭크",
       "rank": "에메랄드+",
-      "window": "지난 7일"
-    },
-    "snapshot_collected": false,
-    "snapshot_reason": "Early morning check at 08:42 KST. No new official balance revision or MetaTFT patch. The 24h anchor at 08:54:06 KST and daily 09:00 capture are still in the future; neither is marked complete early.",
-    "next_followup_due_utc": "2026-10-28T23:54:06.000Z",
-    "next_baseline_capture_kst": "2026-10-29T09:00:00+09:00",
-    "notification": "DONT_NOTIFY",
-    "quality_notes": [
-      "Official latest main patch verified from the patch list; Korean article read through its final sections and newer English mid-patch entries checked.",
-      "Current 18.5c and previous 18.5b separately selected on comps and units with matching filters.",
-      "Previous-unit header was read again after loading finished; stale current-patch board total was not recorded as previous-patch data.",
-      "No full-table capture or conclusion-reversal assessment claimed. Existing snapshots and pending follow-ups are preserved."
-    ]
-  },
-  "last_full_capture": {
-    "checked_at_utc": "2026-10-28T00:05:40Z",
-    "scheduled_for_utc": "2026-10-28T00:00:02.362Z",
-    "result": "daily_baseline_saved_no_new_patch",
-    "official_latest": "18.5",
-    "official_latest_update_en": "2026-10-27",
-    "official_latest_update_ko": "2026-10-23",
-    "metatft_current": "18.5c",
-    "metatft_available_patches": [
-      "18.5c",
-      "18.5b",
-      "18.5",
-      "18.4b"
-    ],
-    "observed_boards": {
-      "comps": 168848,
-      "units": 170000
-    },
-    "previous_patch_boards": {
-      "comps": 5229440,
-      "units": 5229488
-    },
-    "filters_observed": {
-      "mode": "랭크",
-      "rank": "에메랄드+",
+      "region": "No separate restriction",
       "window": "지난 7일"
     },
     "snapshot_collected": true,
-    "snapshot_reason": "Scheduled 09:00 KST baseline; current and previous patches freshly collected. Initial report already delivered; 24h/72h follow-ups not due.",
-    "next_baseline_capture_kst": "2026-10-29T09:00:00+09:00",
-    "notification": "DONT_NOTIFY",
+    "snapshot_reason": "24h after detection and scheduled 09:00 KST daily baseline; both patches freshly captured",
     "observed_rows": {
       "comps": 46,
       "units": 65
@@ -186,16 +158,89 @@
       "empty_placeholders": 0
     },
     "changes_since_initial_18_5c": {
-      "max_comparable_comp_avg": 0.04,
-      "max_unit_avg": 0.01,
-      "major_conclusion_reversal": false
+      "max_comparable_comp_avg": 0.21,
+      "max_unit_avg": 0.11,
+      "definition_changes_excluded": 4,
+      "major_conclusion_reversal": true,
+      "note": "Early Executioner Azir worsening classification no longer holds: delta +0.19 initially to -0.02 now. Current average 4.87 remains weak. Zyra Amumu and Camille improvements attenuated; KhaZix weakness persists."
     },
+    "next_followup_due_utc": "2026-10-30T23:54:06.000Z",
+    "next_baseline_capture_kst": "2026-10-30T09:00:00+09:00",
+    "notification": "NOTIFY",
     "quality_notes": [
-      "Both patches have 46 fully rendered and parsed comp rows and 65 units.",
-      "Korean official article still lags October 27 English changes.",
-      "Comp sample sizes unavailable; comp shifts remain exploratory.",
-      "Minimum current unit sample 2919; all unit rows exceed the 1000-sample floor.",
-      "No new report stage or significant reversal; do not repeat initial notification."
+      "Both patches have all 46 rendered comp rows and all 65 units captured; stable end counts verified three times.",
+      "Minimum current unit sample 19109; no unit sample below 1000.",
+      "Comp sample sizes unavailable; comparisons are exploratory and unknown selection-rate units preserved raw.",
+      "Four comp definitions changed since initial capture and are excluded from initial trajectories; today's current and previous definitions match.",
+      "Identical last-7-day filters have unequal patch exposure. Aggregate unit star/item and survivor biases remain.",
+      "English October 27 changes are newer than Korean localization; exact deployment time unconfirmed."
+    ]
+  },
+  "last_full_capture": {
+    "checked_at_utc": "2026-10-29T00:08:20Z",
+    "scheduled_for_utc": "2026-10-29T00:00:03.725Z",
+    "result": "24h_observation_and_daily_baseline_saved",
+    "official_latest": "18.5",
+    "official_latest_update_en": "2026-10-27",
+    "official_latest_update_ko": "2026-10-23",
+    "official_read_scope": {
+      "korean_complete": true,
+      "english_scope": "Latest mid-patch updates including October 27; no newer changes observed"
+    },
+    "metatft_current": "18.5c",
+    "metatft_available_patches": [
+      "18.5c",
+      "18.5b",
+      "18.5"
+    ],
+    "observed_boards": {
+      "comps": 1166104,
+      "units": 1166992
+    },
+    "previous_patch_boards": {
+      "comps": 5243408,
+      "units": 5243408
+    },
+    "filters_observed": {
+      "mode": "랭크",
+      "rank": "에메랄드+",
+      "region": "No separate restriction",
+      "window": "지난 7일"
+    },
+    "snapshot_collected": true,
+    "snapshot_reason": "24h after detection and scheduled 09:00 KST daily baseline; both patches freshly captured",
+    "observed_rows": {
+      "comps": 46,
+      "units": 65
+    },
+    "comp_completeness": {
+      "stable_counts": [
+        46,
+        46,
+        46
+      ],
+      "dom_rows": 46,
+      "rendered_stat_rows": 46,
+      "ad_slots": 9,
+      "empty_placeholders": 0
+    },
+    "changes_since_initial_18_5c": {
+      "max_comparable_comp_avg": 0.21,
+      "max_unit_avg": 0.11,
+      "definition_changes_excluded": 4,
+      "major_conclusion_reversal": true,
+      "note": "Early Executioner Azir worsening classification no longer holds: delta +0.19 initially to -0.02 now. Current average 4.87 remains weak. Zyra Amumu and Camille improvements attenuated; KhaZix weakness persists."
+    },
+    "next_followup_due_utc": "2026-10-30T23:54:06.000Z",
+    "next_baseline_capture_kst": "2026-10-30T09:00:00+09:00",
+    "notification": "NOTIFY",
+    "quality_notes": [
+      "Both patches have all 46 rendered comp rows and all 65 units captured; stable end counts verified three times.",
+      "Minimum current unit sample 19109; no unit sample below 1000.",
+      "Comp sample sizes unavailable; comparisons are exploratory and unknown selection-rate units preserved raw.",
+      "Four comp definitions changed since initial capture and are excluded from initial trajectories; today's current and previous definitions match.",
+      "Identical last-7-day filters have unequal patch exposure. Aggregate unit star/item and survivor biases remain.",
+      "English October 27 changes are newer than Korean localization; exact deployment time unconfirmed."
     ]
   },
   "official_revision_history": {
@@ -216,7 +261,7 @@
   },
   "remote_sync": {
     "status": "data_verified",
-    "data_commit": "6b26941efcef993050784dda3bb8eefc3211add4",
+    "data_commit": "881ad3198035f854d042e6ded96f3ddea46bc360",
     "verified_files": 9
   }
 }
