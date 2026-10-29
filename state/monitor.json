@@ -28,9 +28,9 @@
       "정의의 손길 모든 피해 흡혈 15%→12%, 찬란한 버전 30%→25%"
     ],
     "content_sha256": null,
-    "locale_note": "October 27 update is present in the English official article; Korean article still ends at October 23. Latest changes are translated from English. Exact deployment time is unconfirmed.",
+    "locale_note": "Korean October 28 entry now contains the same balance changes as English October 27. Localization date difference is not a new revision; retain 18.5|2026-10-27.",
     "korean_url": "https://teamfighttactics.leagueoflegends.com/ko-kr/news/game-updates/teamfight-tactics-patch-18-5/",
-    "korean_latest_update_date_as_displayed": "2026-10-23"
+    "korean_latest_update_date_as_displayed": "2026-10-28"
   },
   "metatft": {
     "set": "18",
@@ -110,15 +110,20 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-10-29T00:08:20Z",
-    "scheduled_for_utc": "2026-10-29T00:00:03.725Z",
-    "result": "24h_observation_and_daily_baseline_saved",
+    "checked_at_utc": "2026-10-29T14:54:52Z",
+    "scheduled_for_utc": "2026-10-29T14:53:27.296Z",
+    "result": "no_new_patch_or_report_due",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
-    "official_latest_update_ko": "2026-10-23",
+    "official_latest_update_ko": "2026-10-28",
     "official_read_scope": {
+      "korean_lines": 326,
       "korean_complete": true,
-      "english_scope": "Latest mid-patch updates including October 27; no newer changes observed"
+      "english_scope": "Current mid-patch entries and main balance sections checked"
+    },
+    "localization_update": {
+      "new_balance_revision": false,
+      "note": "Korean October 28 changes match English October 27; no additional notification or follow-up reset."
     },
     "metatft_current": "18.5c",
     "metatft_available_patches": [
@@ -127,53 +132,28 @@
       "18.5"
     ],
     "observed_boards": {
-      "comps": 1166104,
-      "units": 1166992
+      "comps": 1811456,
+      "units": 1812584
     },
     "previous_patch_boards": {
-      "comps": 5243408,
-      "units": 5243408
+      "comps": 5244072,
+      "units": 5244072
     },
     "filters_observed": {
       "mode": "랭크",
       "rank": "에메랄드+",
-      "region": "No separate restriction",
+      "region": "No additional region restriction",
       "window": "지난 7일"
     },
-    "snapshot_collected": true,
-    "snapshot_reason": "24h after detection and scheduled 09:00 KST daily baseline; both patches freshly captured",
-    "observed_rows": {
-      "comps": 46,
-      "units": 65
-    },
-    "comp_completeness": {
-      "stable_counts": [
-        46,
-        46,
-        46
-      ],
-      "dom_rows": 46,
-      "rendered_stat_rows": 46,
-      "ad_slots": 9,
-      "empty_placeholders": 0
-    },
-    "changes_since_initial_18_5c": {
-      "max_comparable_comp_avg": 0.21,
-      "max_unit_avg": 0.11,
-      "definition_changes_excluded": 4,
-      "major_conclusion_reversal": true,
-      "note": "Early Executioner Azir worsening classification no longer holds: delta +0.19 initially to -0.02 now. Current average 4.87 remains weak. Zyra Amumu and Camille improvements attenuated; KhaZix weakness persists."
-    },
+    "snapshot_collected": false,
+    "snapshot_reason": "Off-cycle check at 23:53 KST; today's 09:00 baseline and 24h report already verified. No new balance revision or MetaTFT patch; 72h follow-up not due.",
     "next_followup_due_utc": "2026-10-30T23:54:06.000Z",
     "next_baseline_capture_kst": "2026-10-30T09:00:00+09:00",
-    "notification": "NOTIFY",
+    "notification": "DONT_NOTIFY",
     "quality_notes": [
-      "Both patches have all 46 rendered comp rows and all 65 units captured; stable end counts verified three times.",
-      "Minimum current unit sample 19109; no unit sample below 1000.",
-      "Comp sample sizes unavailable; comparisons are exploratory and unknown selection-rate units preserved raw.",
-      "Four comp definitions changed since initial capture and are excluded from initial trajectories; today's current and previous definitions match.",
-      "Identical last-7-day filters have unequal patch exposure. Aggregate unit star/item and survivor biases remain.",
-      "English October 27 changes are newer than Korean localization; exact deployment time unconfirmed."
+      "Current and previous patches separately selected on comps and units.",
+      "Read previous-patch headers again after loading to avoid stale current counts.",
+      "No full-table snapshot or full conclusion-reversal assessment claimed on this off-cycle poll. Existing snapshots and 72h follow-up preserved."
     ]
   },
   "last_full_capture": {
