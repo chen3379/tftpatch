@@ -67,7 +67,7 @@
         "report": "reports/20261030-1547-baseline.md",
         "comparison": "data/snapshots/comparison-18.5b-18.5c-20261030-1547.json",
         "timing": "Late catch-up at 15:47 KST trigger. No 09:00 snapshot available or claimed; actual page captures 15:49:36–15:52:37 KST.",
-        "data_commit": "7411365bb63b1abd00afc4dee31f52b72059edfa",
+        "data_commit": "4024db577547df14166506b9aae6e1880821ec31",
         "verified_remote_files": 9
       }
     },
@@ -283,7 +283,7 @@
   },
   "remote_sync": {
     "status": "data_verified",
-    "data_commit": "7411365bb63b1abd00afc4dee31f52b72059edfa",
+    "data_commit": "4024db577547df14166506b9aae6e1880821ec31",
     "verified_files": 9
   }
 }
