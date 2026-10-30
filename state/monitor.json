@@ -128,8 +128,8 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-10-30T07:57:35Z",
-    "scheduled_for_utc": "2026-10-30T07:55:56.722Z",
+    "checked_at_utc": "2026-10-30T12:02:02Z",
+    "scheduled_for_utc": "2026-10-30T12:00:30.578Z",
     "result": "no_new_patch_or_report_due",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
@@ -145,12 +145,12 @@
       "18.5b"
     ],
     "observed_boards": {
-      "comps": 2453152,
-      "units": 2453656
+      "comps": 2634632,
+      "units": 2635624
     },
     "previous_patch_boards": {
-      "comps": 4862808,
-      "units": 4860168
+      "comps": 4652040,
+      "units": 4599296
     },
     "filters_observed": {
       "mode": "랭크",
@@ -159,14 +159,15 @@
       "window": "지난 7일"
     },
     "snapshot_collected": false,
-    "snapshot_reason": "Daily baseline already saved and verified at 15:47 KST catch-up. No new patch; 72h follow-up still in the future.",
+    "snapshot_reason": "Today's late daily baseline was already saved and verified. No new official balance revision or MetaTFT patch; 72h report is not due until October 31 morning KST.",
     "next_followup_due_utc": "2026-10-30T23:54:06.000Z",
     "next_baseline_capture_kst": "2026-10-31T09:00:00+09:00",
     "notification": "DONT_NOTIFY",
     "quality_notes": [
-      "Current and previous patches separately selected on comps and units with matching filters.",
-      "Previous headers reread after loading; stale counts discarded.",
-      "No full-table snapshot or conclusion-reversal assessment claimed for this poll. Preserved today's verified full baseline and pending 72h report."
+      "Current and previous patches separately selected on comps and units; matching ranked, Emerald+ and last-7-day filters confirmed.",
+      "Previous headers read again after data loaded; stale current counts discarded.",
+      "Comps and units update at different times, and previous-patch counts roll out of the 7-day window; keep page totals separate.",
+      "No full-table capture or conclusion-reversal assessment claimed for this poll. Preserved last successful snapshots, reports and pending 72h stage."
     ]
   },
   "last_full_capture": {
