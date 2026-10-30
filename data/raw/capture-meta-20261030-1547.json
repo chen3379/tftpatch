@@ -1,0 +1,53 @@
+{
+  "scheduled_for_utc": "2026-10-30T06:46:55.595Z",
+  "purpose": "Late daily baseline catch-up; no 09:00 observation claimed",
+  "official_revision": "18.5|2026-10-27",
+  "available_patches": [
+    "18.5c",
+    "18.5b"
+  ],
+  "pages": {
+    "18.5c": {
+      "comps": {
+        "file": "data/raw/comps-set18-18.5c-20261030-1547.txt",
+        "captured_at": "2026-10-30T06:49:36.673Z",
+        "rows": 46,
+        "rendered_stat_rows": 46,
+        "stable_counts": [
+          46,
+          46,
+          46
+        ],
+        "children": 55,
+        "ads": 9,
+        "empty": 0
+      },
+      "units": {
+        "file": "data/raw/units-set18-18.5c-20261030-1547.txt",
+        "captured_at": "2026-10-30T06:51:40.775Z",
+        "rows": 65
+      }
+    },
+    "18.5b": {
+      "comps": {
+        "file": "data/raw/comps-set18-18.5b-20261030-1547.txt",
+        "captured_at": "2026-10-30T06:51:26.158Z",
+        "rows": 46,
+        "rendered_stat_rows": 46,
+        "stable_counts": [
+          46,
+          46,
+          46
+        ],
+        "children": 55,
+        "ads": 9,
+        "empty": 0
+      },
+      "units": {
+        "file": "data/raw/units-set18-18.5b-20261030-1547.txt",
+        "captured_at": "2026-10-30T06:52:37.707Z",
+        "rows": 65
+      }
+    }
+  }
+}
