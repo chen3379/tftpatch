@@ -150,8 +150,8 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-10-31T08:01:06.519Z",
-    "scheduled_for_utc": "2026-10-31T07:59:31.998Z",
+    "checked_at_utc": "2026-10-31T11:58:58.494Z",
+    "scheduled_for_utc": "2026-10-31T11:57:35.461Z",
     "result": "no_new_patch_or_report_due",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
@@ -167,18 +167,18 @@
       "18.5b"
     ],
     "observed_boards": {
-      "comps": 3464184,
-      "units": 3464664
+      "comps": 3651872,
+      "units": 3653856
     },
     "previous_patch_boards": {
-      "comps": 3749384,
-      "units": 3692848
+      "comps": 3537296,
+      "units": 3535832
     },
     "page_checks": {
-      "comps_current": "2026-10-31T08:00:16.366Z",
-      "comps_previous": "2026-10-31T08:00:35.320Z",
-      "units_current": "2026-10-31T08:00:46.158Z",
-      "units_previous": "2026-10-31T08:01:06.519Z"
+      "comps_current": "2026-10-31T11:58:11.939Z",
+      "comps_previous": "2026-10-31T11:58:30.816Z",
+      "units_current": "2026-10-31T11:58:43.472Z",
+      "units_previous": "2026-10-31T11:58:58.494Z"
     },
     "filters_observed": {
       "mode": "랭크",
