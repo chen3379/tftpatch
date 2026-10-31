@@ -150,9 +150,9 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-10-31T04:10:39Z",
-    "scheduled_for_utc": "2026-10-31T04:02:58.001Z",
-    "result": "72h_observation_and_late_daily_baseline_saved",
+    "checked_at_utc": "2026-10-31T08:01:06.519Z",
+    "scheduled_for_utc": "2026-10-31T07:59:31.998Z",
+    "result": "no_new_patch_or_report_due",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
     "official_latest_update_ko": "2026-10-28",
@@ -167,57 +167,34 @@
       "18.5b"
     ],
     "observed_boards": {
-      "comps": 3280160,
-      "units": 3284848
+      "comps": 3464184,
+      "units": 3464664
     },
     "previous_patch_boards": {
-      "comps": 3949224,
-      "units": 3907520
+      "comps": 3749384,
+      "units": 3692848
+    },
+    "page_checks": {
+      "comps_current": "2026-10-31T08:00:16.366Z",
+      "comps_previous": "2026-10-31T08:00:35.320Z",
+      "units_current": "2026-10-31T08:00:46.158Z",
+      "units_previous": "2026-10-31T08:01:06.519Z"
     },
     "filters_observed": {
       "mode": "랭크",
       "rank": "에메랄드+",
-      "region": "지역 별도 제한 없음(사이트 기본값)",
-      "window": "지난 7일",
-      "unit_scope": "전체 성급·아이템",
-      "comp_scope": "상황별 꺼짐; 현재 UI 조합 분류"
+      "region": "No additional region restriction",
+      "window": "지난 7일"
     },
-    "snapshot_collected": true,
-    "snapshot_reason": "Due 72h follow-up and missing daily baseline collected at actual timestamps. Delayed roughly 4h13m after due time.",
-    "observed_rows": {
-      "comps": 45,
-      "units": 65
-    },
-    "comp_completeness": {
-      "comp_row_counts_at_end": [
-        45,
-        45,
-        45
-      ],
-      "comp_dom_rows": 45,
-      "rendered_stat_rows": 45,
-      "comp_list_children": 54,
-      "advertisement_slots": 9,
-      "empty_comp_placeholders": 0,
-      "unit_rows": 65
-    },
-    "changes_since_24h": {
-      "max_comparable_comp_avg": 0.21,
-      "max_unit_avg": 0.04,
-      "definition_changes_excluded": 4,
-      "missing_comps_excluded": 3,
-      "major_conclusion_reversal": false
-    },
+    "snapshot_collected": false,
+    "snapshot_reason": "Today's late daily baseline and delayed 72h report were already saved and verified. No new official balance revision or MetaTFT patch; no pending follow-up.",
     "next_followup_due_utc": null,
     "next_baseline_capture_kst": "2026-11-01T09:00:00+09:00",
-    "notification": "NOTIFY",
+    "notification": "DONT_NOTIFY",
     "quality_notes": [
-      "45 fully rendered comp rows and 65 units on both patches; counts stable across three bottom observations, no empty non-ad placeholders.",
-      "Current unit minimum sample 52996, previous 67624. Comp samples unavailable; comp pick units unverified.",
-      "Four changed comp definitions excluded from temporal comparisons; new and missing rows preserved in comparison JSON.",
-      "Raw pages preserve selected filters, board counts, update text and exact capture timestamps. Same last-7-day window has unequal patch exposure.",
-      "Korean October 28 and English October 27 additions match; official revision unchanged.",
-      "Nine new raw, normalized, comparison and report files exactly read back from GitHub before completing 72h stage."
+      "Current and previous patches separately selected on comps and units, matching ranked, Emerald+ and last-7-day filters confirmed.",
+      "Previous headers read again after data loaded; comps and units totals recorded separately.",
+      "No full-table capture or new conclusion-reversal assessment claimed for this routine poll. Last successful snapshots and 72h report preserved."
     ]
   },
   "last_full_capture": {
