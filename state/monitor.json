@@ -36,9 +36,9 @@
     "set": "18",
     "current_patch": "18.5c",
     "previous_patch": "18.5b",
-    "latest_snapshot": "data/snapshots/set18-18.5c-20261030-1547.json",
-    "previous_snapshot": "data/snapshots/set18-18.5b-20261030-1547.json",
-    "capture_finalized_at": "2026-10-30T06:52:37.707Z",
+    "latest_snapshot": "data/snapshots/set18-18.5c-20261031-1303.json",
+    "previous_snapshot": "data/snapshots/set18-18.5b-20261031-1303.json",
+    "capture_finalized_at": "2026-10-31T04:09:10.205Z",
     "daily_baselines": {
       "2026-10-27": {
         "snapshot": "data/snapshots/set18-18.5b-20261027-1842.json",
@@ -69,6 +69,15 @@
         "timing": "Late catch-up at 15:47 KST trigger. No 09:00 snapshot available or claimed; actual page captures 15:49:36–15:52:37 KST.",
         "data_commit": "4024db577547df14166506b9aae6e1880821ec31",
         "verified_remote_files": 9
+      },
+      "2026-10-31": {
+        "snapshot": "data/snapshots/set18-18.5c-20261031-1303.json",
+        "previous_snapshot": "data/snapshots/set18-18.5b-20261031-1303.json",
+        "report": "reports/18.5c-72h-20261031.md",
+        "comparison": "data/snapshots/comparison-18.5b-18.5c-20261031-1303.json",
+        "timing": "Late catch-up at 13:03 KST trigger; actual page captures 13:07:12–13:09:10 KST. No 09:00 observation claimed; also completes delayed 72h follow-up.",
+        "data_commit": "c1e2a4562cb8ed7517ef048f13dd8b898f3271e7",
+        "verified_remote_files": 9
       }
     },
     "current_revision_detected_at": "2026-10-27T23:54:06Z",
@@ -79,6 +88,13 @@
         "status": "late_recovered",
         "reason": "No 09:00 capture exists in stored history; no scheduler or runtime cause inferred.",
         "recovered_with": "data/snapshots/set18-18.5c-20261030-1547.json"
+      },
+      {
+        "date_kst": "2026-10-31",
+        "expected_capture_kst": "09:00",
+        "status": "late_recovered",
+        "reason": "No 09:00 capture exists in stored history; no scheduler or runtime cause inferred.",
+        "recovered_with": "data/snapshots/set18-18.5c-20261031-1303.json"
       }
     ]
   },
@@ -112,25 +128,31 @@
       "due_at_utc": "2026-10-28T23:54:06.000Z",
       "capture_finalized_at": "2026-10-29T00:04:10.687Z",
       "completed_at_utc": "2026-10-29T00:08:20Z"
-    }
-  },
-  "pending_followups": [
-    {
-      "revision_key": "18.5|2026-10-27",
-      "metatft_patch": "18.5c",
-      "stage": "72h",
+    },
+    "18.5|2026-10-27|72h": {
+      "report": "reports/18.5c-72h-20261031.md",
+      "comparison": "data/snapshots/comparison-18.5b-18.5c-20261031-1303.json",
+      "current_snapshot": "data/snapshots/set18-18.5c-20261031-1303.json",
+      "previous_snapshot": "data/snapshots/set18-18.5b-20261031-1303.json",
+      "date_kst": "2026-10-31",
+      "data_commit": "c1e2a4562cb8ed7517ef048f13dd8b898f3271e7",
+      "verified_remote_files": 9,
       "anchor_at_utc": "2026-10-27T23:54:06Z",
       "anchor_kind": "detection; exact deployment time unconfirmed",
-      "due_at_utc": "2026-10-30T23:54:06.000Z",
-      "status": "pending"
+      "due_at_utc": "2026-10-30T23:54:06Z",
+      "capture_finalized_at": "2026-10-31T04:09:10.205Z",
+      "completed_at_utc": "2026-10-31T04:10:39Z",
+      "status": "complete",
+      "note": "Delayed follow-up captured approximately 76.25h after detection; no exact 72h capture claimed."
     }
-  ],
+  },
+  "pending_followups": [],
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-10-30T12:02:02Z",
-    "scheduled_for_utc": "2026-10-30T12:00:30.578Z",
-    "result": "no_new_patch_or_report_due",
+    "checked_at_utc": "2026-10-31T04:10:39Z",
+    "scheduled_for_utc": "2026-10-31T04:02:58.001Z",
+    "result": "72h_observation_and_late_daily_baseline_saved",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
     "official_latest_update_ko": "2026-10-28",
@@ -145,98 +167,128 @@
       "18.5b"
     ],
     "observed_boards": {
-      "comps": 2634632,
-      "units": 2635624
+      "comps": 3280160,
+      "units": 3284848
     },
     "previous_patch_boards": {
-      "comps": 4652040,
-      "units": 4599296
+      "comps": 3949224,
+      "units": 3907520
     },
     "filters_observed": {
       "mode": "랭크",
       "rank": "에메랄드+",
-      "region": "No additional region restriction",
-      "window": "지난 7일"
-    },
-    "snapshot_collected": false,
-    "snapshot_reason": "Today's late daily baseline was already saved and verified. No new official balance revision or MetaTFT patch; 72h report is not due until October 31 morning KST.",
-    "next_followup_due_utc": "2026-10-30T23:54:06.000Z",
-    "next_baseline_capture_kst": "2026-10-31T09:00:00+09:00",
-    "notification": "DONT_NOTIFY",
-    "quality_notes": [
-      "Current and previous patches separately selected on comps and units; matching ranked, Emerald+ and last-7-day filters confirmed.",
-      "Previous headers read again after data loaded; stale current counts discarded.",
-      "Comps and units update at different times, and previous-patch counts roll out of the 7-day window; keep page totals separate.",
-      "No full-table capture or conclusion-reversal assessment claimed for this poll. Preserved last successful snapshots, reports and pending 72h stage."
-    ]
-  },
-  "last_full_capture": {
-    "checked_at_utc": "2026-10-30T06:55:18Z",
-    "scheduled_for_utc": "2026-10-30T06:46:55.595Z",
-    "result": "late_daily_baseline_saved_no_new_patch",
-    "official_latest": "18.5",
-    "official_latest_update_en": "2026-10-27",
-    "official_latest_update_ko": "2026-10-28",
-    "official_read_scope": {
-      "korean_lines": 326,
-      "korean_complete": true,
-      "english_scope": "Latest mid-patch entries checked"
-    },
-    "metatft_current": "18.5c",
-    "metatft_available_patches": [
-      "18.5c",
-      "18.5b"
-    ],
-    "observed_boards": {
-      "comps": 2400512,
-      "units": 2402968
-    },
-    "previous_patch_boards": {
-      "comps": 4920240,
-      "units": 4911960
-    },
-    "filters_observed": {
-      "mode": "랭크",
-      "rank": "에메랄드+",
-      "region": "No additional region restriction",
-      "window": "지난 7일"
+      "region": "지역 별도 제한 없음(사이트 기본값)",
+      "window": "지난 7일",
+      "unit_scope": "전체 성급·아이템",
+      "comp_scope": "상황별 꺼짐; 현재 UI 조합 분류"
     },
     "snapshot_collected": true,
-    "snapshot_reason": "No stored October 30 09:00 capture; collected a late daily baseline with actual timestamps at this run. No 72h stage claimed early.",
+    "snapshot_reason": "Due 72h follow-up and missing daily baseline collected at actual timestamps. Delayed roughly 4h13m after due time.",
     "observed_rows": {
-      "comps": 46,
+      "comps": 45,
       "units": 65
     },
     "comp_completeness": {
-      "stable_counts": [
-        46,
-        46,
-        46
+      "comp_row_counts_at_end": [
+        45,
+        45,
+        45
       ],
-      "dom_rows": 46,
-      "rendered_stat_rows": 46,
-      "list_children": 55,
-      "ad_slots": 9,
-      "empty_placeholders": 0
+      "comp_dom_rows": 45,
+      "rendered_stat_rows": 45,
+      "comp_list_children": 54,
+      "advertisement_slots": 9,
+      "empty_comp_placeholders": 0,
+      "unit_rows": 65
     },
     "changes_since_24h": {
-      "max_comparable_comp_avg": 0.18,
-      "max_unit_avg": 0.03,
-      "definition_changes_excluded": 3,
-      "major_conclusion_reversal": false,
-      "note": "KhaZix weakness persists; Brambleback weakened but remains strong. Fresh cross-patch comp definitions match. Three changed definitions excluded from temporal movement."
+      "max_comparable_comp_avg": 0.21,
+      "max_unit_avg": 0.04,
+      "definition_changes_excluded": 4,
+      "missing_comps_excluded": 3,
+      "major_conclusion_reversal": false
     },
-    "next_followup_due_utc": "2026-10-30T23:54:06.000Z",
-    "next_baseline_capture_kst": "2026-10-31T09:00:00+09:00",
-    "notification": "DONT_NOTIFY",
+    "next_followup_due_utc": null,
+    "next_baseline_capture_kst": "2026-11-01T09:00:00+09:00",
+    "notification": "NOTIFY",
     "quality_notes": [
-      "Late snapshot is explicitly labeled; missing 09:00 observation is not backfilled with invented timing.",
-      "Both patches have all 46 rendered comp rows and 65 unit rows. Count stability and parsing verified.",
-      "Minimum current unit sample 39023; comp samples unavailable and selection-rate units unverified.",
-      "Same last-7-day filter has unequal patch exposure. Previous boards decrease as the observation window rolls; units and comps refresh at different times.",
-      "Korean October 28 entry matches English October 27; official revision unchanged.",
-      "A browser batch timed out, then resumed and completeness was rechecked before saving. Collection succeeded.",
-      "9 raw, normalized, comparison and report files read back from GitHub and exactly matched local content."
+      "45 fully rendered comp rows and 65 units on both patches; counts stable across three bottom observations, no empty non-ad placeholders.",
+      "Current unit minimum sample 52996, previous 67624. Comp samples unavailable; comp pick units unverified.",
+      "Four changed comp definitions excluded from temporal comparisons; new and missing rows preserved in comparison JSON.",
+      "Raw pages preserve selected filters, board counts, update text and exact capture timestamps. Same last-7-day window has unequal patch exposure.",
+      "Korean October 28 and English October 27 additions match; official revision unchanged.",
+      "Nine new raw, normalized, comparison and report files exactly read back from GitHub before completing 72h stage."
+    ]
+  },
+  "last_full_capture": {
+    "checked_at_utc": "2026-10-31T04:10:39Z",
+    "scheduled_for_utc": "2026-10-31T04:02:58.001Z",
+    "result": "72h_observation_and_late_daily_baseline_saved",
+    "official_latest": "18.5",
+    "official_latest_update_en": "2026-10-27",
+    "official_latest_update_ko": "2026-10-28",
+    "official_read_scope": {
+      "korean_lines": 326,
+      "korean_complete": true,
+      "english_scope": "Latest mid-patch entries checked"
+    },
+    "metatft_current": "18.5c",
+    "metatft_available_patches": [
+      "18.5c",
+      "18.5b"
+    ],
+    "observed_boards": {
+      "comps": 3280160,
+      "units": 3284848
+    },
+    "previous_patch_boards": {
+      "comps": 3949224,
+      "units": 3907520
+    },
+    "filters_observed": {
+      "mode": "랭크",
+      "rank": "에메랄드+",
+      "region": "지역 별도 제한 없음(사이트 기본값)",
+      "window": "지난 7일",
+      "unit_scope": "전체 성급·아이템",
+      "comp_scope": "상황별 꺼짐; 현재 UI 조합 분류"
+    },
+    "snapshot_collected": true,
+    "snapshot_reason": "Due 72h follow-up and missing daily baseline collected at actual timestamps. Delayed roughly 4h13m after due time.",
+    "observed_rows": {
+      "comps": 45,
+      "units": 65
+    },
+    "comp_completeness": {
+      "comp_row_counts_at_end": [
+        45,
+        45,
+        45
+      ],
+      "comp_dom_rows": 45,
+      "rendered_stat_rows": 45,
+      "comp_list_children": 54,
+      "advertisement_slots": 9,
+      "empty_comp_placeholders": 0,
+      "unit_rows": 65
+    },
+    "changes_since_24h": {
+      "max_comparable_comp_avg": 0.21,
+      "max_unit_avg": 0.04,
+      "definition_changes_excluded": 4,
+      "missing_comps_excluded": 3,
+      "major_conclusion_reversal": false
+    },
+    "next_followup_due_utc": null,
+    "next_baseline_capture_kst": "2026-11-01T09:00:00+09:00",
+    "notification": "NOTIFY",
+    "quality_notes": [
+      "45 fully rendered comp rows and 65 units on both patches; counts stable across three bottom observations, no empty non-ad placeholders.",
+      "Current unit minimum sample 52996, previous 67624. Comp samples unavailable; comp pick units unverified.",
+      "Four changed comp definitions excluded from temporal comparisons; new and missing rows preserved in comparison JSON.",
+      "Raw pages preserve selected filters, board counts, update text and exact capture timestamps. Same last-7-day window has unequal patch exposure.",
+      "Korean October 28 and English October 27 additions match; official revision unchanged.",
+      "Nine new raw, normalized, comparison and report files exactly read back from GitHub before completing 72h stage."
     ]
   },
   "official_revision_history": {
@@ -257,7 +309,20 @@
   },
   "remote_sync": {
     "status": "data_verified",
-    "data_commit": "4024db577547df14166506b9aae6e1880821ec31",
+    "data_commit": "c1e2a4562cb8ed7517ef048f13dd8b898f3271e7",
     "verified_files": 9
-  }
+  },
+  "followup_history": [
+    {
+      "revision_key": "18.5|2026-10-27",
+      "metatft_patch": "18.5c",
+      "stage": "72h",
+      "anchor_at_utc": "2026-10-27T23:54:06Z",
+      "anchor_kind": "detection; exact deployment time unconfirmed",
+      "due_at_utc": "2026-10-30T23:54:06.000Z",
+      "status": "completed",
+      "completed_at_utc": "2026-10-31T04:10:39Z",
+      "report": "reports/18.5c-72h-20261031.md"
+    }
+  ]
 }
