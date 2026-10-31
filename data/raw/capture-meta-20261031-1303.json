@@ -1,0 +1,56 @@
+{
+  "scheduled_for_utc": "2026-10-31T04:02:58.001Z",
+  "stage": "72h",
+  "purpose": "72h follow-up and late daily baseline; no 09:00 observation claimed",
+  "official_revision": "18.5|2026-10-27",
+  "anchor_at_utc": "2026-10-27T23:54:06Z",
+  "due_at_utc": "2026-10-30T23:54:06Z",
+  "pages": {
+    "18.5c": {
+      "comps": {
+        "file": "data/raw/comps-set18-18.5c-20261031-1303.txt",
+        "captured_at": "2026-10-31T04:07:12.175Z",
+        "rows": 45,
+        "rendered_stat_rows": 45,
+        "stable_counts": [
+          45,
+          45,
+          45
+        ],
+        "children": 54,
+        "ads": 9,
+        "empty": 0
+      },
+      "units": {
+        "file": "data/raw/units-set18-18.5c-20261031-1303.txt",
+        "captured_at": "2026-10-31T04:08:54.936Z",
+        "rows": 65
+      }
+    },
+    "18.5b": {
+      "comps": {
+        "file": "data/raw/comps-set18-18.5b-20261031-1303.txt",
+        "captured_at": "2026-10-31T04:08:40.106Z",
+        "rows": 45,
+        "rendered_stat_rows": 45,
+        "stable_counts": [
+          45,
+          45,
+          45
+        ],
+        "children": 54,
+        "ads": 9,
+        "empty": 0
+      },
+      "units": {
+        "file": "data/raw/units-set18-18.5b-20261031-1303.txt",
+        "captured_at": "2026-10-31T04:09:10.205Z",
+        "rows": 65
+      }
+    }
+  },
+  "available_patches": [
+    "18.5c",
+    "18.5b"
+  ]
+}

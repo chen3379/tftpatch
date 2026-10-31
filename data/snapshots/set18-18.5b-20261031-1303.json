@@ -1,0 +1,1653 @@
+{
+  "schema_version": 1,
+  "set": "18",
+  "patch": "18.5b",
+  "captured_at": "2026-10-31T04:09:10.205Z",
+  "capture_note": "72h follow-up collected after due time at October 31 13:03 KST trigger; also late daily baseline. No 09:00 or exact 72h capture claimed. Actual page timestamps recorded.",
+  "page_captures": {
+    "comps": "2026-10-31T04:08:40.106Z",
+    "units": "2026-10-31T04:09:10.205Z"
+  },
+  "source_updated_as_displayed": {
+    "comps": "1분 전",
+    "units": "몇 초 전"
+  },
+  "filters": {
+    "mode": "랭크",
+    "rank": "에메랄드+",
+    "region": "지역 별도 제한 없음(사이트 기본값)",
+    "window": "지난 7일",
+    "unit_scope": "전체 성급·아이템",
+    "comp_scope": "상황별 꺼짐; 현재 UI 조합 분류"
+  },
+  "sources": {
+    "comps": "https://www.metatft.com/comps",
+    "units": "https://www.metatft.com/units"
+  },
+  "raw_files": {
+    "comps": "data/raw/comps-set18-18.5b-20261031-1303.txt",
+    "units": "data/raw/units-set18-18.5b-20261031-1303.txt"
+  },
+  "total_boards": {
+    "comps": 3949224,
+    "units": 3907520
+  },
+  "completeness": {
+    "comp_row_counts_at_end": [
+      45,
+      45,
+      45
+    ],
+    "comp_dom_rows": 45,
+    "rendered_stat_rows": 45,
+    "comp_list_children": 54,
+    "advertisement_slots": 9,
+    "empty_comp_placeholders": 0,
+    "unit_rows": 65
+  },
+  "limitations": [
+    "Effective date bounds unavailable; same 7-day filter has different patch exposure periods",
+    "Comp sample sizes not shown; exploratory comparisons only",
+    "Comp pick-rate unit unverified; preserve raw figures",
+    "Unit aggregates mix stars, items, selection timing and survivor bias",
+    "No exact hotfix deployment time is confirmed"
+  ],
+  "comps": [
+    {
+      "id": "set18:협곡야수 덩굴정령",
+      "name": "협곡야수 덩굴정령",
+      "tier": "S",
+      "definition": "감시자|나르|덩굴정령|돌거북|어스름늑대|장로 드래곤|조약돌|타릭",
+      "members": [
+        "덩굴정령",
+        "돌거북",
+        "장로 드래곤",
+        "감시자",
+        "나르",
+        "타릭",
+        "어스름늑대",
+        "조약돌"
+      ],
+      "avg": 4.11,
+      "pick_raw": 1.14,
+      "win_pct": 15.2,
+      "top4_pct": 57.2,
+      "n": null
+    },
+    {
+      "id": "set18:선봉대 모르가나",
+      "name": "선봉대 모르가나",
+      "tier": "S",
+      "definition": "감시자|다이애나|모르가나|알룬|엘리스|장로 드래곤|카시오페아|타릭",
+      "members": [
+        "모르가나",
+        "감시자",
+        "알룬",
+        "장로 드래곤",
+        "타릭",
+        "카시오페아",
+        "다이애나",
+        "엘리스"
+      ],
+      "avg": 4.22,
+      "pick_raw": 0.16,
+      "win_pct": 19.6,
+      "top4_pct": 53.8,
+      "n": null
+    },
+    {
+      "id": "set18:기원자 티모 알리스타",
+      "name": "기원자 티모 알리스타",
+      "tier": "A",
+      "definition": "감시자|르블랑|모르가나|베이가|알리스타|코부코|티모|헤카림",
+      "members": [
+        "티모",
+        "알리스타",
+        "르블랑",
+        "모르가나",
+        "감시자",
+        "헤카림",
+        "코부코",
+        "베이가"
+      ],
+      "avg": 4.25,
+      "pick_raw": 0.13,
+      "win_pct": 6.6,
+      "top4_pct": 56.9,
+      "n": null
+    },
+    {
+      "id": "set18:치명적인 꽃 아지르",
+      "name": "치명적인 꽃 아지르",
+      "tier": "A",
+      "definition": "람머스|베이가|소라카|아지르|자이라|티모|피들스틱",
+      "members": [
+        "아지르",
+        "람머스",
+        "자이라",
+        "피들스틱",
+        "소라카",
+        "티모",
+        "베이가"
+      ],
+      "avg": 4.33,
+      "pick_raw": 0.23,
+      "win_pct": 11.8,
+      "top4_pct": 53.5,
+      "n": null
+    },
+    {
+      "id": "set18:주문술사 베이가",
+      "name": "주문술사 베이가",
+      "tier": "A",
+      "definition": "렉사이|르블랑|베이가|알리스타|오른|카시오페아|피들스틱",
+      "members": [
+        "베이가",
+        "오른",
+        "알리스타",
+        "르블랑",
+        "카시오페아",
+        "피들스틱",
+        "렉사이"
+      ],
+      "avg": 4.34,
+      "pick_raw": 0.31,
+      "win_pct": 13,
+      "top4_pct": 53.2,
+      "n": null
+    },
+    {
+      "id": "set18:선봉대 알룬",
+      "name": "선봉대 알룬",
+      "tier": "A",
+      "definition": "감시자|다이애나|라칸|릴리아|모르가나|아이번|알룬|타릭|피들스틱",
+      "members": [
+        "알룬",
+        "모르가나",
+        "감시자",
+        "타릭",
+        "아이번",
+        "릴리아",
+        "다이애나",
+        "피들스틱",
+        "라칸"
+      ],
+      "avg": 4.37,
+      "pick_raw": 0.21,
+      "win_pct": 17.7,
+      "top4_pct": 50.9,
+      "n": null
+    },
+    {
+      "id": "set18:적응가 마스터 이 렝가",
+      "name": "적응가 마스터 이 렝가",
+      "tier": "A",
+      "definition": "니달리|돌거북|렝가|마스터 이|바이|세트|요릭",
+      "members": [
+        "마스터 이",
+        "렝가",
+        "바이",
+        "니달리",
+        "세트",
+        "돌거북",
+        "요릭"
+      ],
+      "avg": 4.38,
+      "pick_raw": 0.19,
+      "win_pct": 11.2,
+      "top4_pct": 52.6,
+      "n": null
+    },
+    {
+      "id": "set18:처형자 카직스",
+      "name": "처형자 카직스",
+      "tier": "A",
+      "definition": "다이애나|소라카|오른|이즈리얼|카직스|피들스틱|헤카림",
+      "members": [
+        "카직스",
+        "헤카림",
+        "이즈리얼",
+        "다이애나",
+        "소라카",
+        "피들스틱",
+        "오른"
+      ],
+      "avg": 4.42,
+      "pick_raw": 0.23,
+      "win_pct": 11.7,
+      "top4_pct": 52.1,
+      "n": null
+    },
+    {
+      "id": "set18:개화 카르마",
+      "name": "개화 카르마",
+      "tier": "A",
+      "definition": "레오나|르블랑|세주아니|요릭|유나라|카르마|케일",
+      "members": [
+        "카르마",
+        "세주아니",
+        "유나라",
+        "요릭",
+        "케일",
+        "르블랑",
+        "레오나"
+      ],
+      "avg": 4.42,
+      "pick_raw": 0.39,
+      "win_pct": 13.4,
+      "top4_pct": 52.3,
+      "n": null
+    },
+    {
+      "id": "set18:달빛 니달리",
+      "name": "달빛 니달리",
+      "tier": "A",
+      "definition": "감시자|니달리|다이애나|바루스|바이|아무무|아펠리오스|코그모",
+      "members": [
+        "아펠리오스",
+        "니달리",
+        "아무무",
+        "감시자",
+        "다이애나",
+        "코그모",
+        "바이",
+        "바루스"
+      ],
+      "avg": 4.44,
+      "pick_raw": 0.29,
+      "win_pct": 6.4,
+      "top4_pct": 53.2,
+      "n": null
+    },
+    {
+      "id": "set18:처형자 세트",
+      "name": "처형자 세트",
+      "tier": "A",
+      "definition": "세트|소라카|아리|알리스타|오른|유나라|이즈리얼|피들스틱",
+      "members": [
+        "세트",
+        "이즈리얼",
+        "아리",
+        "소라카",
+        "피들스틱",
+        "알리스타",
+        "유나라",
+        "오른"
+      ],
+      "avg": 4.45,
+      "pick_raw": 0.09,
+      "win_pct": 8.7,
+      "top4_pct": 52,
+      "n": null
+    },
+    {
+      "id": "set18:기원자 티모",
+      "name": "기원자 티모",
+      "tier": "A",
+      "definition": "감시자|돌거북|람머스|모르가나|베이가|조약돌|티모|피들스틱",
+      "members": [
+        "티모",
+        "람머스",
+        "모르가나",
+        "감시자",
+        "피들스틱",
+        "돌거북",
+        "조약돌",
+        "베이가"
+      ],
+      "avg": 4.45,
+      "pick_raw": 0.02,
+      "win_pct": 6.6,
+      "top4_pct": 52.6,
+      "n": null
+    },
+    {
+      "id": "set18:나무정령 드레이븐",
+      "name": "나무정령 드레이븐",
+      "tier": "A",
+      "definition": "나르|드레이븐|마오카이|아무무|아이번|알리스타|이즈리얼|케넨|타릭",
+      "members": [
+        "드레이븐",
+        "이즈리얼",
+        "마오카이",
+        "케넨",
+        "나르",
+        "아이번",
+        "타릭",
+        "아무무",
+        "알리스타"
+      ],
+      "avg": 4.46,
+      "pick_raw": 0.41,
+      "win_pct": 18.3,
+      "top4_pct": 48.6,
+      "n": null
+    },
+    {
+      "id": "set18:약탈자 워윅",
+      "name": "약탈자 워윅",
+      "tier": "A",
+      "definition": "다이애나|덩굴정령|돌거북|렉사이|말파이트|아지르|어스름늑대|워윅",
+      "members": [
+        "워윅",
+        "말파이트",
+        "덩굴정령",
+        "어스름늑대",
+        "아지르",
+        "다이애나",
+        "돌거북",
+        "렉사이"
+      ],
+      "avg": 4.47,
+      "pick_raw": 0.05,
+      "win_pct": 6.3,
+      "top4_pct": 52.2,
+      "n": null
+    },
+    {
+      "id": "set18:지옥불 장로 드래곤",
+      "name": "지옥불 장로 드래곤",
+      "tier": "B",
+      "definition": "감시자|드레이븐|마오카이|아무무|아이번|장로 드래곤|케넨|타릭",
+      "members": [
+        "드레이븐",
+        "장로 드래곤",
+        "마오카이",
+        "케넨",
+        "아이번",
+        "타릭",
+        "아무무",
+        "감시자"
+      ],
+      "avg": 4.52,
+      "pick_raw": 0.75,
+      "win_pct": 19.3,
+      "top4_pct": 48.4,
+      "n": null
+    },
+    {
+      "id": "set18:속사포 어미 부리",
+      "name": "속사포 어미 부리",
+      "tier": "B",
+      "definition": "감시자|돌거북|알리스타|어미 부리|자야|자이라|헤카림",
+      "members": [
+        "어미 부리",
+        "헤카림",
+        "자이라",
+        "돌거북",
+        "감시자",
+        "알리스타",
+        "자야"
+      ],
+      "avg": 4.52,
+      "pick_raw": 0.07,
+      "win_pct": 7.2,
+      "top4_pct": 50.6,
+      "n": null
+    },
+    {
+      "id": "set18:기원자 아리",
+      "name": "기원자 아리",
+      "tier": "B",
+      "definition": "감시자|돌거북|모르가나|세트|아리|조약돌|카르마|타릭",
+      "members": [
+        "아리",
+        "모르가나",
+        "세트",
+        "감시자",
+        "타릭",
+        "돌거북",
+        "조약돌",
+        "카르마"
+      ],
+      "avg": 4.53,
+      "pick_raw": 0.35,
+      "win_pct": 10.1,
+      "top4_pct": 50,
+      "n": null
+    },
+    {
+      "id": "set18:전쟁기계 시비르",
+      "name": "전쟁기계 시비르",
+      "tier": "B",
+      "definition": "라칸|마오카이|바이|시비르|아무무|아이번|애쉬|케넨|타릭",
+      "members": [
+        "시비르",
+        "애쉬",
+        "아무무",
+        "마오카이",
+        "아이번",
+        "케넨",
+        "타릭",
+        "바이",
+        "라칸"
+      ],
+      "avg": 4.54,
+      "pick_raw": 0.2,
+      "win_pct": 13.1,
+      "top4_pct": 48.6,
+      "n": null
+    },
+    {
+      "id": "set18:지옥불 아칼리",
+      "name": "지옥불 아칼리",
+      "tier": "B",
+      "definition": "레오나|바루스|세주아니|아칼리|오른|카밀|케일",
+      "members": [
+        "아칼리",
+        "카밀",
+        "오른",
+        "바루스",
+        "케일",
+        "세주아니",
+        "레오나"
+      ],
+      "avg": 4.57,
+      "pick_raw": 0.13,
+      "win_pct": 8.1,
+      "top4_pct": 50.3,
+      "n": null
+    },
+    {
+      "id": "set18:전쟁기계 자이라",
+      "name": "전쟁기계 자이라",
+      "tier": "B",
+      "definition": "니달리|라칸|바위 게|바이|세주아니|아무무|요릭|자이라",
+      "members": [
+        "자이라",
+        "니달리",
+        "아무무",
+        "바이",
+        "세주아니",
+        "바위 게",
+        "라칸",
+        "요릭"
+      ],
+      "avg": 4.58,
+      "pick_raw": 0.06,
+      "win_pct": 10,
+      "top4_pct": 48.4,
+      "n": null
+    },
+    {
+      "id": "set18:기원자 감시자",
+      "name": "기원자 감시자",
+      "tier": "B",
+      "definition": "감시자|다이애나|덩굴정령|모르가나|알룬|조약돌|코그모|타릭|헤카림",
+      "members": [
+        "감시자",
+        "모르가나",
+        "덩굴정령",
+        "알룬",
+        "타릭",
+        "다이애나",
+        "헤카림",
+        "코그모",
+        "조약돌"
+      ],
+      "avg": 4.6,
+      "pick_raw": 0.05,
+      "win_pct": 11.6,
+      "top4_pct": 47.7,
+      "n": null
+    },
+    {
+      "id": "set18:전쟁기계 자이라 아무무",
+      "name": "전쟁기계 자이라 아무무",
+      "tier": "B",
+      "definition": "마오카이|바위 게|바이|세주아니|시비르|아무무|애쉬|요릭|자이라",
+      "members": [
+        "자이라",
+        "아무무",
+        "시비르",
+        "마오카이",
+        "애쉬",
+        "바이",
+        "세주아니",
+        "바위 게",
+        "요릭"
+      ],
+      "avg": 4.6,
+      "pick_raw": 0.08,
+      "win_pct": 11.4,
+      "top4_pct": 48.1,
+      "n": null
+    },
+    {
+      "id": "set18:개화 아리 자이라",
+      "name": "개화 아리 자이라",
+      "tier": "B",
+      "definition": "나르|라칸|릴리아|세트|아리|요릭|자이라|피들스틱",
+      "members": [
+        "아리",
+        "자이라",
+        "세트",
+        "릴리아",
+        "나르",
+        "피들스틱",
+        "라칸",
+        "요릭"
+      ],
+      "avg": 4.62,
+      "pick_raw": 0.09,
+      "win_pct": 9.4,
+      "top4_pct": 48.2,
+      "n": null
+    },
+    {
+      "id": "set18:사냥꾼 시비르",
+      "name": "사냥꾼 시비르",
+      "tier": "B",
+      "definition": "감시자|니달리|돌거북|렉사이|말파이트|불타는 묘목|시비르|코그모",
+      "members": [
+        "시비르",
+        "니달리",
+        "말파이트",
+        "감시자",
+        "코그모",
+        "돌거북",
+        "렉사이",
+        "불타는 묘목"
+      ],
+      "avg": 4.64,
+      "pick_raw": 0.05,
+      "win_pct": 6.8,
+      "top4_pct": 48.4,
+      "n": null
+    },
+    {
+      "id": "set18:전쟁기계 케이틀린",
+      "name": "전쟁기계 케이틀린",
+      "tier": "B",
+      "definition": "라칸|바위 게|바이|세주아니|시비르|아무무|요릭|케이틀린",
+      "members": [
+        "케이틀린",
+        "시비르",
+        "바위 게",
+        "세주아니",
+        "아무무",
+        "바이",
+        "라칸",
+        "요릭"
+      ],
+      "avg": 4.69,
+      "pick_raw": 0.06,
+      "win_pct": 7.6,
+      "top4_pct": 47.8,
+      "n": null
+    },
+    {
+      "id": "set18:달빛 릴리아",
+      "name": "달빛 릴리아",
+      "tier": "B",
+      "definition": "나르|다이애나|릴리아|아펠리오스|알룬|알리스타|오른|자야|헤카림",
+      "members": [
+        "릴리아",
+        "아펠리오스",
+        "알룬",
+        "나르",
+        "다이애나",
+        "헤카림",
+        "알리스타",
+        "오른",
+        "자야"
+      ],
+      "avg": 4.69,
+      "pick_raw": 0.04,
+      "win_pct": 10.4,
+      "top4_pct": 46.7,
+      "n": null
+    },
+    {
+      "id": "set18:처형자 말파이트",
+      "name": "처형자 말파이트",
+      "tier": "B",
+      "definition": "말파이트|소라카|아무무|아지르|요릭|자이라|케넨|피들스틱",
+      "members": [
+        "말파이트",
+        "자이라",
+        "소라카",
+        "아지르",
+        "케넨",
+        "아무무",
+        "피들스틱",
+        "요릭"
+      ],
+      "avg": 4.69,
+      "pick_raw": 0.17,
+      "win_pct": 7.7,
+      "top4_pct": 47,
+      "n": null
+    },
+    {
+      "id": "set18:속사포 자야",
+      "name": "속사포 자야",
+      "tier": "B",
+      "definition": "라칸|레오나|세주아니|오른|자야|케일|헤카림",
+      "members": [
+        "자야",
+        "케일",
+        "라칸",
+        "오른",
+        "헤카림",
+        "세주아니",
+        "레오나"
+      ],
+      "avg": 4.71,
+      "pick_raw": 0.12,
+      "win_pct": 11.5,
+      "top4_pct": 46.5,
+      "n": null
+    },
+    {
+      "id": "set18:선봉대 아펠리오스",
+      "name": "선봉대 아펠리오스",
+      "tier": "B",
+      "definition": "감시자|다이애나|덩굴정령|아펠리오스|어미 부리|자이라|타릭|헤카림",
+      "members": [
+        "아펠리오스",
+        "감시자",
+        "덩굴정령",
+        "어미 부리",
+        "타릭",
+        "자이라",
+        "다이애나",
+        "헤카림"
+      ],
+      "avg": 4.72,
+      "pick_raw": 0.06,
+      "win_pct": 6.4,
+      "top4_pct": 46.7,
+      "n": null
+    },
+    {
+      "id": "set18:엄호대 카시오페아",
+      "name": "엄호대 카시오페아",
+      "tier": "B",
+      "definition": "람머스|레오나|릴리아|쉔|오른|카시오페아|피들스틱",
+      "members": [
+        "카시오페아",
+        "람머스",
+        "피들스틱",
+        "릴리아",
+        "쉔",
+        "레오나",
+        "오른"
+      ],
+      "avg": 4.72,
+      "pick_raw": 0.11,
+      "win_pct": 6.2,
+      "top4_pct": 46.2,
+      "n": null
+    },
+    {
+      "id": "set18:개화 세트",
+      "name": "개화 세트",
+      "tier": "C",
+      "definition": "나르|마오카이|바이|세트|시비르|아무무|아이번|애쉬|요릭",
+      "members": [
+        "세트",
+        "애쉬",
+        "시비르",
+        "나르",
+        "아이번",
+        "마오카이",
+        "아무무",
+        "바이",
+        "요릭"
+      ],
+      "avg": 4.79,
+      "pick_raw": 0.03,
+      "win_pct": 9.1,
+      "top4_pct": 44.4,
+      "n": null
+    },
+    {
+      "id": "set18:달빛 아펠리오스",
+      "name": "달빛 아펠리오스",
+      "tier": "C",
+      "definition": "다이애나|레오나|마오카이|세주아니|아펠리오스|알룬|케일|타릭|피들스틱",
+      "members": [
+        "아펠리오스",
+        "알룬",
+        "마오카이",
+        "타릭",
+        "다이애나",
+        "피들스틱",
+        "케일",
+        "세주아니",
+        "레오나"
+      ],
+      "avg": 4.82,
+      "pick_raw": 0.05,
+      "win_pct": 10,
+      "top4_pct": 44,
+      "n": null
+    },
+    {
+      "id": "set18:처형자 아지르",
+      "name": "처형자 아지르",
+      "tier": "C",
+      "definition": "렉사이|바이|세트|아지르|요릭|유나라|자이라|카직스",
+      "members": [
+        "아지르",
+        "바이",
+        "세트",
+        "자이라",
+        "카직스",
+        "유나라",
+        "렉사이",
+        "요릭"
+      ],
+      "avg": 4.89,
+      "pick_raw": 0.02,
+      "win_pct": 6.6,
+      "top4_pct": 43.5,
+      "n": null
+    },
+    {
+      "id": "set18:원시 니달리",
+      "name": "원시 니달리",
+      "tier": "C",
+      "definition": "감시자|니달리|라칸|릴리아|쉔|시비르|아무무|코그모",
+      "members": [
+        "니달리",
+        "시비르",
+        "아무무",
+        "릴리아",
+        "감시자",
+        "코그모",
+        "쉔",
+        "라칸"
+      ],
+      "avg": 4.91,
+      "pick_raw": 0.02,
+      "win_pct": 6.3,
+      "top4_pct": 42.4,
+      "n": null
+    },
+    {
+      "id": "set18:날렵이 베이가",
+      "name": "날렵이 베이가",
+      "tier": "C",
+      "definition": "나르|람머스|렉사이|베이가|세트|코부코|티모|피들스틱",
+      "members": [
+        "베이가",
+        "렉사이",
+        "티모",
+        "람머스",
+        "나르",
+        "세트",
+        "피들스틱",
+        "코부코"
+      ],
+      "avg": 4.93,
+      "pick_raw": 0.04,
+      "win_pct": 4.7,
+      "top4_pct": 42.5,
+      "n": null
+    },
+    {
+      "id": "set18:기원자 니달리",
+      "name": "기원자 니달리",
+      "tier": "C",
+      "definition": "감시자|니달리|라칸|릴리아|쉔|시비르|아무무|코그모",
+      "members": [
+        "니달리",
+        "감시자",
+        "시비르",
+        "코그모",
+        "릴리아",
+        "아무무",
+        "쉔",
+        "라칸"
+      ],
+      "avg": 4.94,
+      "pick_raw": 0.02,
+      "win_pct": 5.7,
+      "top4_pct": 42.1,
+      "n": null
+    },
+    {
+      "id": "set18:경쟁자 카직스",
+      "name": "경쟁자 카직스",
+      "tier": "D",
+      "definition": "다이애나|렝가|르블랑|아펠리오스|이즈리얼|카직스|헤카림",
+      "members": [
+        "카직스",
+        "렝가",
+        "헤카림",
+        "다이애나",
+        "아펠리오스",
+        "이즈리얼",
+        "르블랑"
+      ],
+      "avg": 5,
+      "pick_raw": 0.06,
+      "win_pct": 6.9,
+      "top4_pct": 40.7,
+      "n": null
+    },
+    {
+      "id": "set18:치명적인 꽃 소라카",
+      "name": "치명적인 꽃 소라카",
+      "tier": "D",
+      "definition": "다이애나|마오카이|소라카|아무무|아이번|알룬|케넨|타릭|피들스틱",
+      "members": [
+        "소라카",
+        "아무무",
+        "알룬",
+        "아이번",
+        "케넨",
+        "마오카이",
+        "타릭",
+        "다이애나",
+        "피들스틱"
+      ],
+      "avg": 5.02,
+      "pick_raw": 0.02,
+      "win_pct": 7.4,
+      "top4_pct": 39.8,
+      "n": null
+    },
+    {
+      "id": "set18:검은 가시 베이가",
+      "name": "검은 가시 베이가",
+      "tier": "D",
+      "definition": "람머스|렉사이|말파이트|베이가|소라카|아지르|코부코|피들스틱",
+      "members": [
+        "베이가",
+        "말파이트",
+        "아지르",
+        "렉사이",
+        "소라카",
+        "람머스",
+        "피들스틱",
+        "코부코"
+      ],
+      "avg": 5.03,
+      "pick_raw": 0.01,
+      "win_pct": 8.1,
+      "top4_pct": 40.2,
+      "n": null
+    },
+    {
+      "id": "set18:전쟁기계 자이라 아지르",
+      "name": "전쟁기계 자이라 아지르",
+      "tier": "D",
+      "definition": "라칸|바위 게|바이|세주아니|아무무|아지르|요릭|자이라",
+      "members": [
+        "자이라",
+        "아지르",
+        "아무무",
+        "바이",
+        "세주아니",
+        "바위 게",
+        "라칸",
+        "요릭"
+      ],
+      "avg": 5.11,
+      "pick_raw": 0.02,
+      "win_pct": 6,
+      "top4_pct": 38.2,
+      "n": null
+    },
+    {
+      "id": "set18:지옥불 아무무",
+      "name": "지옥불 아무무",
+      "tier": "D",
+      "definition": "다이애나|레오나|세주아니|쉔|아무무|아펠리오스|알룬|케일|타릭",
+      "members": [
+        "아무무",
+        "아펠리오스",
+        "알룬",
+        "타릭",
+        "다이애나",
+        "케일",
+        "세주아니",
+        "쉔",
+        "레오나"
+      ],
+      "avg": 5.38,
+      "pick_raw": 0.02,
+      "win_pct": 6.5,
+      "top4_pct": 34,
+      "n": null
+    },
+    {
+      "id": "set18:협곡야수 바위 게",
+      "name": "협곡야수 바위 게",
+      "tier": "D",
+      "definition": "감시자|덩굴정령|돌거북|바위 게|심술두꺼비|어스름늑대|조약돌|코그모",
+      "members": [
+        "바위 게",
+        "심술두꺼비",
+        "덩굴정령",
+        "감시자",
+        "코그모",
+        "돌거북",
+        "어스름늑대",
+        "조약돌"
+      ],
+      "avg": 5.46,
+      "pick_raw": 0.03,
+      "win_pct": 3.9,
+      "top4_pct": 32.8,
+      "n": null
+    },
+    {
+      "id": "set18:요정 자야",
+      "name": "요정 자야",
+      "tier": "D",
+      "definition": "라칸|레오나|릴리아|세주아니|자야|케일|트리스타나",
+      "members": [
+        "자야",
+        "라칸",
+        "릴리아",
+        "트리스타나",
+        "케일",
+        "세주아니",
+        "레오나"
+      ],
+      "avg": 5.62,
+      "pick_raw": 0.02,
+      "win_pct": 5.8,
+      "top4_pct": 31.3,
+      "n": null
+    },
+    {
+      "id": "set18:악의 여단 엘리스",
+      "name": "악의 여단 엘리스",
+      "tier": "D",
+      "definition": "감시자|다이애나|라칸|모르가나|엘리스|카시오페아|타릭|헤카림",
+      "members": [
+        "엘리스",
+        "모르가나",
+        "카시오페아",
+        "감시자",
+        "타릭",
+        "다이애나",
+        "헤카림",
+        "라칸"
+      ],
+      "avg": 5.65,
+      "pick_raw": 0.25,
+      "win_pct": 8.4,
+      "top4_pct": 28.1,
+      "n": null
+    },
+    {
+      "id": "set18:선봉대 엘리스",
+      "name": "선봉대 엘리스",
+      "tier": "D",
+      "definition": "감시자|다이애나|라칸|아이번|엘리스|장로 드래곤|타릭|헤카림",
+      "members": [
+        "엘리스",
+        "다이애나",
+        "헤카림",
+        "장로 드래곤",
+        "아이번",
+        "타릭",
+        "감시자",
+        "라칸"
+      ],
+      "avg": 6.32,
+      "pick_raw": 0.03,
+      "win_pct": 2.3,
+      "top4_pct": 17.8,
+      "n": null
+    }
+  ],
+  "units": [
+    {
+      "id": "set18:럭스",
+      "name": "럭스",
+      "tier": "S",
+      "avg": 3.63,
+      "win_pct": 24.3,
+      "n": 409266,
+      "pick_pct": 10.5,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:나르",
+      "name": "나르",
+      "tier": "S",
+      "avg": 3.71,
+      "win_pct": 20.5,
+      "n": 883198,
+      "pick_pct": 22.6,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:장로 드래곤",
+      "name": "장로 드래곤",
+      "tier": "S",
+      "avg": 3.8,
+      "win_pct": 21.5,
+      "n": 778360,
+      "pick_pct": 19.9,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:타릭",
+      "name": "타릭",
+      "tier": "S",
+      "avg": 3.86,
+      "win_pct": 21.3,
+      "n": 1194148,
+      "pick_pct": 30.6,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:알룬",
+      "name": "알룬",
+      "tier": "S",
+      "avg": 3.92,
+      "win_pct": 19,
+      "n": 509080,
+      "pick_pct": 13,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:아이번",
+      "name": "아이번",
+      "tier": "S",
+      "avg": 3.98,
+      "win_pct": 21.9,
+      "n": 723477,
+      "pick_pct": 18.5,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:케넨",
+      "name": "케넨",
+      "tier": "S",
+      "avg": 4.05,
+      "win_pct": 19.7,
+      "n": 728926,
+      "pick_pct": 18.7,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:애쉬",
+      "name": "애쉬",
+      "tier": "S",
+      "avg": 4.11,
+      "win_pct": 16.3,
+      "n": 309310,
+      "pick_pct": 7.9,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:덩굴정령",
+      "name": "덩굴정령",
+      "tier": "S",
+      "avg": 4.16,
+      "win_pct": 13.7,
+      "n": 699999,
+      "pick_pct": 17.9,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:마오카이",
+      "name": "마오카이",
+      "tier": "A",
+      "avg": 4.2,
+      "win_pct": 19.3,
+      "n": 737843,
+      "pick_pct": 18.9,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:어스름늑대",
+      "name": "어스름늑대",
+      "tier": "A",
+      "avg": 4.21,
+      "win_pct": 13.9,
+      "n": 629454,
+      "pick_pct": 16.1,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:드레이븐",
+      "name": "드레이븐",
+      "tier": "A",
+      "avg": 4.23,
+      "win_pct": 21.3,
+      "n": 486631,
+      "pick_pct": 12.5,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:조약돌",
+      "name": "조약돌",
+      "tier": "A",
+      "avg": 4.29,
+      "win_pct": 13.3,
+      "n": 729351,
+      "pick_pct": 18.7,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:소라카",
+      "name": "소라카",
+      "tier": "A",
+      "avg": 4.29,
+      "win_pct": 12.3,
+      "n": 497733,
+      "pick_pct": 12.7,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:케일",
+      "name": "케일",
+      "tier": "A",
+      "avg": 4.29,
+      "win_pct": 12.7,
+      "n": 373273,
+      "pick_pct": 9.6,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:감시자",
+      "name": "감시자",
+      "tier": "A",
+      "avg": 4.31,
+      "win_pct": 14.3,
+      "n": 1715108,
+      "pick_pct": 43.9,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:돌거북",
+      "name": "돌거북",
+      "tier": "A",
+      "avg": 4.33,
+      "win_pct": 12.3,
+      "n": 1000974,
+      "pick_pct": 25.6,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:아지르",
+      "name": "아지르",
+      "tier": "A",
+      "avg": 4.34,
+      "win_pct": 11.9,
+      "n": 391824,
+      "pick_pct": 10,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:아펠리오스",
+      "name": "아펠리오스",
+      "tier": "A",
+      "avg": 4.36,
+      "win_pct": 10.9,
+      "n": 482185,
+      "pick_pct": 12.3,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:니달리",
+      "name": "니달리",
+      "tier": "A",
+      "avg": 4.4,
+      "win_pct": 8.7,
+      "n": 369968,
+      "pick_pct": 9.5,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:이즈리얼",
+      "name": "이즈리얼",
+      "tier": "A",
+      "avg": 4.4,
+      "win_pct": 14.4,
+      "n": 620796,
+      "pick_pct": 15.9,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:코그모",
+      "name": "코그모",
+      "tier": "A",
+      "avg": 4.4,
+      "win_pct": 9.1,
+      "n": 383964,
+      "pick_pct": 9.8,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:티모",
+      "name": "티모",
+      "tier": "B",
+      "avg": 4.42,
+      "win_pct": 9.3,
+      "n": 226698,
+      "pick_pct": 5.8,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:아무무",
+      "name": "아무무",
+      "tier": "B",
+      "avg": 4.42,
+      "win_pct": 14.7,
+      "n": 1062805,
+      "pick_pct": 27.2,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:자이라",
+      "name": "자이라",
+      "tier": "B",
+      "avg": 4.43,
+      "win_pct": 10.6,
+      "n": 379322,
+      "pick_pct": 9.7,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:베이가",
+      "name": "베이가",
+      "tier": "B",
+      "avg": 4.46,
+      "win_pct": 10.4,
+      "n": 393254,
+      "pick_pct": 10.1,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:르블랑",
+      "name": "르블랑",
+      "tier": "B",
+      "avg": 4.48,
+      "win_pct": 12,
+      "n": 597978,
+      "pick_pct": 15.3,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:레오나",
+      "name": "레오나",
+      "tier": "B",
+      "avg": 4.48,
+      "win_pct": 11.5,
+      "n": 443323,
+      "pick_pct": 11.3,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:알리스타",
+      "name": "알리스타",
+      "tier": "B",
+      "avg": 4.49,
+      "win_pct": 12.8,
+      "n": 690976,
+      "pick_pct": 17.7,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:릴리아",
+      "name": "릴리아",
+      "tier": "B",
+      "avg": 4.49,
+      "win_pct": 12.6,
+      "n": 465285,
+      "pick_pct": 11.9,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:세트",
+      "name": "세트",
+      "tier": "B",
+      "avg": 4.5,
+      "win_pct": 10.1,
+      "n": 614213,
+      "pick_pct": 15.7,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:세주아니",
+      "name": "세주아니",
+      "tier": "B",
+      "avg": 4.52,
+      "win_pct": 11.5,
+      "n": 485255,
+      "pick_pct": 12.4,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:시비르",
+      "name": "시비르",
+      "tier": "B",
+      "avg": 4.52,
+      "win_pct": 12,
+      "n": 355655,
+      "pick_pct": 9.1,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:마스터 이",
+      "name": "마스터 이",
+      "tier": "B",
+      "avg": 4.52,
+      "win_pct": 10.1,
+      "n": 198453,
+      "pick_pct": 5.1,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:아리",
+      "name": "아리",
+      "tier": "B",
+      "avg": 4.53,
+      "win_pct": 10.9,
+      "n": 423556,
+      "pick_pct": 10.8,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:피들스틱",
+      "name": "피들스틱",
+      "tier": "B",
+      "avg": 4.54,
+      "win_pct": 11,
+      "n": 860719,
+      "pick_pct": 22,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:오른",
+      "name": "오른",
+      "tier": "B",
+      "avg": 4.55,
+      "win_pct": 11.1,
+      "n": 669793,
+      "pick_pct": 17.1,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:람머스",
+      "name": "람머스",
+      "tier": "B",
+      "avg": 4.56,
+      "win_pct": 10.6,
+      "n": 361110,
+      "pick_pct": 9.2,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:렝가",
+      "name": "렝가",
+      "tier": "B",
+      "avg": 4.56,
+      "win_pct": 11.7,
+      "n": 189139,
+      "pick_pct": 4.8,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:심술두꺼비",
+      "name": "심술두꺼비",
+      "tier": "B",
+      "avg": 4.57,
+      "win_pct": 11,
+      "n": 152235,
+      "pick_pct": 3.9,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:유나라",
+      "name": "유나라",
+      "tier": "B",
+      "avg": 4.58,
+      "win_pct": 11.6,
+      "n": 313754,
+      "pick_pct": 8,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:요릭",
+      "name": "요릭",
+      "tier": "B",
+      "avg": 4.59,
+      "win_pct": 10.7,
+      "n": 660243,
+      "pick_pct": 16.9,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:렉사이",
+      "name": "렉사이",
+      "tier": "B",
+      "avg": 4.59,
+      "win_pct": 10,
+      "n": 266762,
+      "pick_pct": 6.8,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:모르가나",
+      "name": "모르가나",
+      "tier": "B",
+      "avg": 4.6,
+      "win_pct": 12.6,
+      "n": 601283,
+      "pick_pct": 15.4,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:다이애나",
+      "name": "다이애나",
+      "tier": "C",
+      "avg": 4.6,
+      "win_pct": 11.4,
+      "n": 881036,
+      "pick_pct": 22.5,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:카르마",
+      "name": "카르마",
+      "tier": "C",
+      "avg": 4.61,
+      "win_pct": 11.2,
+      "n": 418860,
+      "pick_pct": 10.7,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:바이",
+      "name": "바이",
+      "tier": "C",
+      "avg": 4.62,
+      "win_pct": 9.8,
+      "n": 699342,
+      "pick_pct": 17.9,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:바루스",
+      "name": "바루스",
+      "tier": "C",
+      "avg": 4.62,
+      "win_pct": 7.7,
+      "n": 301500,
+      "pick_pct": 7.7,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:카직스",
+      "name": "카직스",
+      "tier": "C",
+      "avg": 4.63,
+      "win_pct": 10.1,
+      "n": 183692,
+      "pick_pct": 4.7,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:코부코",
+      "name": "코부코",
+      "tier": "C",
+      "avg": 4.66,
+      "win_pct": 7.9,
+      "n": 176887,
+      "pick_pct": 4.5,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:어미 부리",
+      "name": "어미 부리",
+      "tier": "C",
+      "avg": 4.67,
+      "win_pct": 9.1,
+      "n": 234036,
+      "pick_pct": 6,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:헤카림",
+      "name": "헤카림",
+      "tier": "C",
+      "avg": 4.67,
+      "win_pct": 10.4,
+      "n": 718898,
+      "pick_pct": 18.4,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:트리스타나",
+      "name": "트리스타나",
+      "tier": "C",
+      "avg": 4.67,
+      "win_pct": 11.3,
+      "n": 205475,
+      "pick_pct": 5.3,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:자야",
+      "name": "자야",
+      "tier": "C",
+      "avg": 4.7,
+      "win_pct": 10.6,
+      "n": 337388,
+      "pick_pct": 8.6,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:말파이트",
+      "name": "말파이트",
+      "tier": "C",
+      "avg": 4.72,
+      "win_pct": 8,
+      "n": 203765,
+      "pick_pct": 5.2,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:쉔",
+      "name": "쉔",
+      "tier": "C",
+      "avg": 4.73,
+      "win_pct": 9.6,
+      "n": 251587,
+      "pick_pct": 6.4,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:바위 게",
+      "name": "바위 게",
+      "tier": "C",
+      "avg": 4.76,
+      "win_pct": 9.2,
+      "n": 488910,
+      "pick_pct": 12.5,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:불타는 묘목",
+      "name": "불타는 묘목",
+      "tier": "C",
+      "avg": 4.77,
+      "win_pct": 9,
+      "n": 239435,
+      "pick_pct": 6.1,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:카시오페아",
+      "name": "카시오페아",
+      "tier": "C",
+      "avg": 4.79,
+      "win_pct": 11.8,
+      "n": 395874,
+      "pick_pct": 10.1,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:라칸",
+      "name": "라칸",
+      "tier": "D",
+      "avg": 4.84,
+      "win_pct": 10.7,
+      "n": 481236,
+      "pick_pct": 12.3,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:워윅",
+      "name": "워윅",
+      "tier": "D",
+      "avg": 4.86,
+      "win_pct": 6.5,
+      "n": 67624,
+      "pick_pct": 1.7,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:아칼리",
+      "name": "아칼리",
+      "tier": "D",
+      "avg": 4.87,
+      "win_pct": 7.6,
+      "n": 127560,
+      "pick_pct": 3.3,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:엘리스",
+      "name": "엘리스",
+      "tier": "D",
+      "avg": 5.23,
+      "win_pct": 11.2,
+      "n": 290194,
+      "pick_pct": 7.4,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:카밀",
+      "name": "카밀",
+      "tier": "D",
+      "avg": 5.52,
+      "win_pct": 6.2,
+      "n": 151261,
+      "pick_pct": 3.9,
+      "top4_pct": null
+    },
+    {
+      "id": "set18:케이틀린",
+      "name": "케이틀린",
+      "tier": "D",
+      "avg": 5.73,
+      "win_pct": 6,
+      "n": 113625,
+      "pick_pct": 2.9,
+      "top4_pct": null
+    }
+  ]
+}
