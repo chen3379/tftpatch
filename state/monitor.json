@@ -150,8 +150,8 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-10-31T11:58:58.494Z",
-    "scheduled_for_utc": "2026-10-31T11:57:35.461Z",
+    "checked_at_utc": "2026-10-31T23:05:46.132Z",
+    "scheduled_for_utc": "2026-10-31T23:04:17.709Z",
     "result": "no_new_patch_or_report_due",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
@@ -167,18 +167,18 @@
       "18.5b"
     ],
     "observed_boards": {
-      "comps": 3651872,
-      "units": 3653856
+      "comps": 4136480,
+      "units": 4136616
     },
     "previous_patch_boards": {
-      "comps": 3537296,
-      "units": 3535832
+      "comps": 3003776,
+      "units": 2982440
     },
     "page_checks": {
-      "comps_current": "2026-10-31T11:58:11.939Z",
-      "comps_previous": "2026-10-31T11:58:30.816Z",
-      "units_current": "2026-10-31T11:58:43.472Z",
-      "units_previous": "2026-10-31T11:58:58.494Z"
+      "comps_current": "2026-10-31T23:05:02.287Z",
+      "comps_previous": "2026-10-31T23:05:20.594Z",
+      "units_current": "2026-10-31T23:05:28.002Z",
+      "units_previous": "2026-10-31T23:05:46.132Z"
     },
     "filters_observed": {
       "mode": "랭크",
@@ -187,14 +187,14 @@
       "window": "지난 7일"
     },
     "snapshot_collected": false,
-    "snapshot_reason": "Today's late daily baseline and delayed 72h report were already saved and verified. No new official balance revision or MetaTFT patch; no pending follow-up.",
+    "snapshot_reason": "No new official balance revision or MetaTFT patch; 24h and 72h reports already complete. November 1 daily baseline is not due until 09:00 KST. Last successful snapshots preserved.",
     "next_followup_due_utc": null,
     "next_baseline_capture_kst": "2026-11-01T09:00:00+09:00",
     "notification": "DONT_NOTIFY",
     "quality_notes": [
-      "Current and previous patches separately selected on comps and units, matching ranked, Emerald+ and last-7-day filters confirmed.",
-      "Previous headers read again after data loaded; comps and units totals recorded separately.",
-      "No full-table capture or new conclusion-reversal assessment claimed for this routine poll. Last successful snapshots and 72h report preserved."
+      "Current and previous patches separately selected on comps and units; matching ranked, Emerald+ and last-7-day filters confirmed.",
+      "Previous unit page initially retained current board total while loading. Recorded only the loaded previous-patch total and rows.",
+      "No full-table capture or new conclusion-reversal assessment claimed for this routine poll. Last successful snapshots and report history preserved."
     ]
   },
   "last_full_capture": {
