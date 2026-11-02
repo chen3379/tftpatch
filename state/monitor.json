@@ -170,9 +170,9 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-11-02T00:05:47Z",
-    "scheduled_for_utc": "2026-11-01T23:56:43.018Z",
-    "result": "daily_baseline_saved_no_new_patch",
+    "checked_at_utc": "2026-11-02T03:59:02.853Z",
+    "scheduled_for_utc": "2026-11-02T03:57:46.280Z",
+    "result": "no_new_patch_or_report_due",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
     "official_latest_update_ko": "2026-10-28",
@@ -187,64 +187,34 @@
       "18.5b"
     ],
     "observed_boards": {
-      "comps": 5179816,
-      "units": 5182648
+      "comps": 5302784,
+      "units": 5303608
     },
     "previous_patch_boards": {
-      "comps": 1866912,
-      "units": 1842880
+      "comps": 1734784,
+      "units": 1733832
     },
     "page_checks": {
-      "comps_current": "2026-11-02T00:00:17.494Z",
-      "comps_previous": "2026-11-02T00:01:43.910Z",
-      "units_current": "2026-11-02T00:01:54.501Z",
-      "units_previous": "2026-11-02T00:02:48.270Z"
+      "comps_current": "2026-11-02T03:58:30.495Z",
+      "comps_previous": "2026-11-02T03:58:41.389Z",
+      "units_current": "2026-11-02T03:58:49.594Z",
+      "units_previous": "2026-11-02T03:59:02.853Z"
     },
     "filters_observed": {
       "mode": "랭크",
       "rank": "에메랄드+",
-      "region": "지역 별도 제한 없음(사이트 기본값)",
-      "window": "지난 7일",
-      "unit_scope": "전체 성급·아이템",
-      "comp_scope": "상황별 꺼짐; 현재 UI 조합 분류"
+      "region": "No additional region restriction",
+      "window": "지난 7일"
     },
-    "snapshot_collected": true,
-    "snapshot_reason": "Daily 09:00 baseline finalized after 09:00 from an early 08:56 trigger; actual capture timestamps retained. Initial/24h/72h stages remain complete. No duplicate report notification.",
-    "observed_rows": {
-      "comps": 45,
-      "units": 65
-    },
-    "comp_completeness": {
-      "comp_row_counts_at_end": [
-        45,
-        45,
-        45
-      ],
-      "comp_dom_rows": 45,
-      "rendered_stat_rows": 45,
-      "comp_list_children": 54,
-      "advertisement_slots": 9,
-      "empty_comp_placeholders": 0,
-      "unit_rows": 65
-    },
-    "changes_since_previous_baseline": {
-      "max_comparable_comp_avg": 0.02,
-      "max_unit_avg": 0.01,
-      "definition_changes_excluded": 2,
-      "new_comp_names": [],
-      "missing_comp_names": [],
-      "major_conclusion_reversal": false
-    },
+    "snapshot_collected": false,
+    "snapshot_reason": "November 2 daily baseline already saved and verified. No new official balance revision or MetaTFT patch and no pending report stage.",
     "next_followup_due_utc": null,
     "next_baseline_capture_kst": "2026-11-03T09:00:00+09:00",
     "notification": "DONT_NOTIFY",
     "quality_notes": [
-      "Both single-patch tables captured fully: 45 rendered comp rows and 65 unit rows, stable final counts and zero empty non-ad placeholders.",
-      "Current minimum unit sample 82865 and previous 30634; comp samples unknown, comp pick unit unverified, unit top4 kept null.",
-      "Two changed comp definitions excluded from temporal comparison with November 1 baseline. Current B/C comp definitions match; no new or missing names.",
-      "No new official balance revision. Korean October 28 localization matches English October 27 update.",
-      "Same last-7-day filter has unequal patch exposure. Page totals, timestamps and source update labels recorded separately.",
-      "All four raw-text SHA-256 hashes matched the browser export. All nine raw, normalized, comparison and report files exactly read back from GitHub and local files before registering this baseline."
+      "Current and previous patches separately selected on comps and units; matching ranked, Emerald+ and last-7-day filters confirmed.",
+      "Previous-patch page read after loaded statistics appeared; board totals and timestamps recorded separately.",
+      "No full-table capture or new conclusion-reversal assessment claimed for this routine poll. Last successful full snapshots, daily report and completed stages preserved."
     ]
   },
   "last_full_capture": {
