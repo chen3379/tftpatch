@@ -170,8 +170,8 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-11-02T12:05:02.684Z",
-    "scheduled_for_utc": "2026-11-02T12:03:23.961Z",
+    "checked_at_utc": "2026-11-02T15:58:43.608Z",
+    "scheduled_for_utc": "2026-11-02T15:57:28.202Z",
     "result": "no_new_patch_or_report_due",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
@@ -187,18 +187,18 @@
       "18.5b"
     ],
     "observed_boards": {
-      "comps": 5651600,
-      "units": 5651824
+      "comps": 5876416,
+      "units": 5881880
     },
     "previous_patch_boards": {
-      "comps": 1358416,
-      "units": 1307456
+      "comps": 1113616,
+      "units": 1111808
     },
     "page_checks": {
-      "comps_current": "2026-11-02T12:04:19.160Z",
-      "comps_previous": "2026-11-02T12:04:34.287Z",
-      "units_current": "2026-11-02T12:04:45.162Z",
-      "units_previous": "2026-11-02T12:05:02.684Z"
+      "comps_current": "2026-11-02T15:58:08.615Z",
+      "comps_previous": "2026-11-02T15:58:24.627Z",
+      "units_current": "2026-11-02T15:58:32.356Z",
+      "units_previous": "2026-11-02T15:58:43.608Z"
     },
     "filters_observed": {
       "mode": "랭크",
@@ -207,7 +207,7 @@
       "window": "지난 7일"
     },
     "snapshot_collected": false,
-    "snapshot_reason": "November 2 daily baseline already saved and verified. No new official balance revision or MetaTFT patch and no pending report stage.",
+    "snapshot_reason": "Routine 00:57 KST poll. November 2 baseline remains last successful full capture; November 3 09:00 KST baseline is not yet due. No new official balance revision or MetaTFT patch and no pending report stage.",
     "next_followup_due_utc": null,
     "next_baseline_capture_kst": "2026-11-03T09:00:00+09:00",
     "notification": "DONT_NOTIFY",
