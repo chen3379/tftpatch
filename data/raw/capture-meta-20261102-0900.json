@@ -1,0 +1,55 @@
+{
+  "scheduled_for_utc": "2026-11-01T23:56:43.018Z",
+  "scheduled_baseline_kst": "2026-11-02T09:00:00+09:00",
+  "stage": "daily",
+  "purpose": "Daily 09:00 baseline; trigger arrived at 08:56:43 KST, final capture after 09:00; actual per-page timestamps preserved",
+  "official_revision": "18.5|2026-10-27",
+  "pages": {
+    "18.5c": {
+      "comps": {
+        "file": "data/raw/comps-set18-18.5c-20261102-0900.txt",
+        "captured_at": "2026-11-02T00:00:17.494Z",
+        "rows": 45,
+        "rendered_stat_rows": 45,
+        "stable_counts": [
+          45,
+          45,
+          45
+        ],
+        "children": 54,
+        "ads": 9,
+        "empty": 0
+      },
+      "units": {
+        "file": "data/raw/units-set18-18.5c-20261102-0900.txt",
+        "captured_at": "2026-11-02T00:01:54.501Z",
+        "rows": 65
+      }
+    },
+    "18.5b": {
+      "comps": {
+        "file": "data/raw/comps-set18-18.5b-20261102-0900.txt",
+        "captured_at": "2026-11-02T00:01:43.910Z",
+        "rows": 45,
+        "rendered_stat_rows": 45,
+        "stable_counts": [
+          45,
+          45,
+          45
+        ],
+        "children": 54,
+        "ads": 9,
+        "empty": 0
+      },
+      "units": {
+        "file": "data/raw/units-set18-18.5b-20261102-0900.txt",
+        "captured_at": "2026-11-02T00:02:48.270Z",
+        "rows": 65
+      }
+    }
+  },
+  "available_patches": [
+    "18.5c",
+    "18.5b"
+  ]
+}
