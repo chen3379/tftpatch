@@ -170,8 +170,8 @@
   "consecutive_failures": 0,
   "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-11-02T08:06:22.082Z",
-    "scheduled_for_utc": "2026-11-02T08:04:49.793Z",
+    "checked_at_utc": "2026-11-02T12:05:02.684Z",
+    "scheduled_for_utc": "2026-11-02T12:03:23.961Z",
     "result": "no_new_patch_or_report_due",
     "official_latest": "18.5",
     "official_latest_update_en": "2026-10-27",
@@ -187,18 +187,18 @@
       "18.5b"
     ],
     "observed_boards": {
-      "comps": 5471512,
-      "units": 5472896
+      "comps": 5651600,
+      "units": 5651824
     },
     "previous_patch_boards": {
-      "comps": 1552824,
-      "units": 1508776
+      "comps": 1358416,
+      "units": 1307456
     },
     "page_checks": {
-      "comps_current": "2026-11-02T08:05:45.381Z",
-      "comps_previous": "2026-11-02T08:05:58.861Z",
-      "units_current": "2026-11-02T08:06:07.997Z",
-      "units_previous": "2026-11-02T08:06:22.082Z"
+      "comps_current": "2026-11-02T12:04:19.160Z",
+      "comps_previous": "2026-11-02T12:04:34.287Z",
+      "units_current": "2026-11-02T12:04:45.162Z",
+      "units_previous": "2026-11-02T12:05:02.684Z"
     },
     "filters_observed": {
       "mode": "랭크",
