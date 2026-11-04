@@ -1,0 +1,68 @@
+{
+  "scheduled_for_utc": "2026-11-04T16:51:08.191Z",
+  "purpose": "Pre-18.6 baseline; only 18.5c exposed by both MetaTFT patch menus. Prior 18.5b uses last successful November 2 snapshot.",
+  "stage": "baseline-and-announcement",
+  "available_patches": [
+    "18.5c"
+  ],
+  "pages": {
+    "18.5c": {
+      "comps": {
+        "file": "data/raw/comps-set18-18.5c-20261105-0155.txt",
+        "captured_at": "2026-11-04T16:55:35.942Z",
+        "rows": 46,
+        "rendered_stat_rows": 46,
+        "stable_counts": [
+          46,
+          46,
+          46
+        ],
+        "children": 55,
+        "ads": 9,
+        "empty": 0
+      },
+      "units": {
+        "file": "data/raw/units-set18-18.5c-20261105-0155.txt",
+        "captured_at": "2026-11-04T16:55:47.314Z",
+        "rows": 65
+      }
+    }
+  },
+  "official": {
+    "patch": "18.6",
+    "revision_key": "18.6|2026-11-03",
+    "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-6/",
+    "korean_url": "https://teamfighttactics.leagueoflegends.com/ko-kr/news/game-updates/teamfight-tactics-patch-18-6/",
+    "published_at": "2026-11-03T19:00:00Z",
+    "detected_at_utc": "2026-11-04T16:54:03Z",
+    "korean_date_as_displayed": "2026-11-04",
+    "additional_patch_entries": [],
+    "full_korean_body_read": true,
+    "full_english_body_read": true,
+    "korean_read_method": "Rendered browser; web reader failed",
+    "raw_file": "data/raw/official-18.6-ko-20261105-0155.txt",
+    "raw_sha256": "eb5e3514add448d52bf44f01ae0a7f205ed95c48e2e9889c08ffc8e0617c1600",
+    "deployment_status": "Exact live deployment time and region completion unconfirmed. Official notes describe longer deployment with standalone client.",
+    "metatft_current": "18.5c",
+    "available_patches": [
+      "18.5c"
+    ],
+    "analysis_status": "initial_outlook_saved; 18.6 statistical comparison unavailable",
+    "report": "reports/18.6-outlook-20261105.md",
+    "baseline_report": "reports/20261105-0155-baseline.md",
+    "revision_summary": [
+      "니달리 공격력/주문력 형태 상향; 말파이트·감시자 보호막 강화",
+      "코부코·렉사이 회복 및 3성 어스름늑대 공격 강화",
+      "개화·원거리 날렵이 상향, 9나무정령 체력 하향",
+      "경쟁을 넘어서 상향, 커져라 나비정령 하향, 상징·중도 가격 인상",
+      "아이템·증강·경제 관련 버그 수정 포함"
+    ],
+    "followup_anchor_kind": "detection; deployment time unconfirmed"
+  },
+  "previous_patch_fallback": {
+    "patch": "18.5b",
+    "snapshot": "data/snapshots/set18-18.5b-20261102-0900.json",
+    "reason": "No longer selectable on either page",
+    "captured_at": "2026-11-02T00:02:48.270Z"
+  }
+}
