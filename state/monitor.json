@@ -17,28 +17,49 @@
     "runtime": "Codex desktop; machine and app must be running"
   },
   "official": {
-    "patch": "18.5",
-    "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5/",
-    "published_at": "2026-10-20T18:00:00Z",
-    "latest_update_date_as_displayed": "2026-10-27",
-    "revision_key": "18.5|2026-10-27",
-    "revision_summary": [
-      "카직스 기본 피해량 250/345/500→230/310/450, 고립 피해량 280/390/590→250/350/530",
-      "덩굴정령 방어력 무시: 주문력 계수 25%→10%, 기본 수치 25%→30%",
-      "정의의 손길 모든 피해 흡혈 15%→12%, 찬란한 버전 30%→25%"
+    "patch": "18.6",
+    "revision_key": "18.6|2026-11-03",
+    "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-6/",
+    "korean_url": "https://teamfighttactics.leagueoflegends.com/ko-kr/news/game-updates/teamfight-tactics-patch-18-6/",
+    "published_at": "2026-11-03T19:00:00Z",
+    "detected_at_utc": "2026-11-04T16:54:03Z",
+    "korean_date_as_displayed": "2026-11-04",
+    "additional_patch_entries": [],
+    "full_korean_body_read": true,
+    "full_english_body_read": true,
+    "korean_read_method": "Rendered browser; web reader failed",
+    "raw_file": "data/raw/official-18.6-ko-20261105-0155.txt",
+    "raw_sha256": "eb5e3514add448d52bf44f01ae0a7f205ed95c48e2e9889c08ffc8e0617c1600",
+    "deployment_status": "Exact live deployment time and region completion unconfirmed. Official notes describe longer deployment with standalone client.",
+    "metatft_current": "18.5c",
+    "available_patches": [
+      "18.5c"
     ],
+    "analysis_status": "initial_outlook_saved; 18.6 statistical comparison unavailable",
+    "report": "reports/18.6-outlook-20261105.md",
+    "baseline_report": "reports/20261105-0155-baseline.md",
+    "revision_summary": [
+      "니달리 공격력/주문력 형태 상향; 말파이트·감시자 보호막 강화",
+      "코부코·렉사이 회복 및 3성 어스름늑대 공격 강화",
+      "개화·원거리 날렵이 상향, 9나무정령 체력 하향",
+      "경쟁을 넘어서 상향, 커져라 나비정령 하향, 상징·중도 가격 인상",
+      "아이템·증강·경제 관련 버그 수정 포함"
+    ],
+    "followup_anchor_kind": "detection; deployment time unconfirmed",
+    "latest_update_date_as_displayed": "2026-11-03",
+    "korean_latest_update_date_as_displayed": "2026-11-04",
     "content_sha256": null,
-    "locale_note": "Korean October 28 entry now contains the same balance changes as English October 27. Localization date difference is not a new revision; retain 18.5|2026-10-27.",
-    "korean_url": "https://teamfighttactics.leagueoflegends.com/ko-kr/news/game-updates/teamfight-tactics-patch-18-5/",
-    "korean_latest_update_date_as_displayed": "2026-10-28"
+    "status": "official_notes_published; 18.6 statistics unavailable",
+    "latest_report": "reports/18.6-outlook-20261105.md",
+    "locale_note": "EN November 3 and KO November 4 refer to the same 18.6 notes; exact live deployment time unconfirmed."
   },
   "metatft": {
     "set": "18",
     "current_patch": "18.5c",
     "previous_patch": "18.5b",
-    "latest_snapshot": "data/snapshots/set18-18.5c-20261102-0900.json",
+    "latest_snapshot": "data/snapshots/set18-18.5c-20261105-0155.json",
     "previous_snapshot": "data/snapshots/set18-18.5b-20261102-0900.json",
-    "capture_finalized_at": "2026-11-02T00:02:48.270Z",
+    "capture_finalized_at": "2026-11-04T16:55:47.314Z",
     "daily_baselines": {
       "2026-10-27": {
         "snapshot": "data/snapshots/set18-18.5b-20261027-1842.json",
@@ -113,10 +134,35 @@
         "status": "late_recovered",
         "reason": "No 09:00 capture exists in stored history; no scheduler or runtime cause inferred.",
         "recovered_with": "data/snapshots/set18-18.5c-20261031-1303.json"
+      },
+      {
+        "date_kst": "2026-11-03",
+        "expected_capture_kst": "09:00",
+        "status": "missing_not_backfilled",
+        "reason": "No successful stored capture; cause unconfirmed. Current data cannot reconstruct past observations."
+      },
+      {
+        "date_kst": "2026-11-04",
+        "expected_capture_kst": "09:00",
+        "status": "missing_not_backfilled",
+        "reason": "No successful stored capture; cause unconfirmed. Current data cannot reconstruct past observations."
       }
     ],
-    "latest_report": "reports/20261102-0900-baseline.md",
-    "latest_comparison": "data/snapshots/comparison-18.5b-18.5c-20261102-0900.json"
+    "latest_report": "reports/20261105-0155-baseline.md",
+    "latest_comparison": "data/snapshots/comparison-18.5b-18.5c-20261105-0155.json",
+    "available_patches": [
+      "18.5c"
+    ],
+    "pre_patch_baselines": {
+      "18.6": {
+        "snapshot": "data/snapshots/set18-18.5c-20261105-0155.json",
+        "report": "reports/20261105-0155-baseline.md",
+        "captured_at": "2026-11-04T16:55:47.314Z",
+        "data_commit": "f82aef1caa95b15613758e81948273842430c805",
+        "verified_remote_files": 9,
+        "timing": "November 5 01:55 KST ad-hoc baseline. November 5 09:00 daily baseline remains due."
+      }
+    }
   },
   "reported": {
     "18.5|2026-10-23|existing-patch-baseline": {
@@ -164,89 +210,125 @@
       "completed_at_utc": "2026-10-31T04:10:39Z",
       "status": "complete",
       "note": "Delayed follow-up captured approximately 76.25h after detection; no exact 72h capture claimed."
+    },
+    "18.6|2026-11-03|announcement": {
+      "status": "complete",
+      "report": "reports/18.6-outlook-20261105.md",
+      "date_kst": "2026-11-05",
+      "data_commit": "f82aef1caa95b15613758e81948273842430c805",
+      "verified_remote_files": 9,
+      "statistics_complete": false,
+      "note": "Official outlook saved and verified. Initial statistical analysis remains pending because 18.6 is not exposed by MetaTFT."
     }
   },
-  "pending_followups": [],
-  "consecutive_failures": 0,
-  "last_error": null,
+  "pending_followups": [
+    {
+      "revision_key": "18.6|2026-11-03",
+      "metatft_patch": "18.6",
+      "stage": "initial-statistics",
+      "status": "waiting_for_statistics",
+      "due_at_utc": "2026-11-04T16:54:03Z",
+      "anchor_at_utc": "2026-11-04T16:54:03Z",
+      "anchor_kind": "detection; deployment time unconfirmed",
+      "reason": "Both MetaTFT menus expose only 18.5c"
+    },
+    {
+      "revision_key": "18.6|2026-11-03",
+      "metatft_patch": "18.6",
+      "stage": "24h",
+      "status": "pending",
+      "anchor_at_utc": "2026-11-04T16:54:03Z",
+      "anchor_kind": "detection; deployment time unconfirmed",
+      "due_at_utc": "2026-11-05T16:54:03.000Z"
+    },
+    {
+      "revision_key": "18.6|2026-11-03",
+      "metatft_patch": "18.6",
+      "stage": "72h",
+      "status": "pending",
+      "anchor_at_utc": "2026-11-04T16:54:03Z",
+      "anchor_kind": "detection; deployment time unconfirmed",
+      "due_at_utc": "2026-11-07T16:54:03.000Z"
+    }
+  ],
+  "consecutive_failures": 2,
+  "last_error": {
+    "code": "new_patch_statistics_unavailable",
+    "first_at_utc": "2026-11-04T16:55:47.314Z",
+    "last_at_utc": "2026-11-04T19:58:10.649Z",
+    "patch": "18.6",
+    "details": "Two checks found only 18.5c. Official reading and existing-patch capture succeeded, but requested 18.6 statistics cannot be collected. Not treated as unchanged or analysis complete.",
+    "notified": "first failure with new official outlook"
+  },
   "last_check": {
-    "checked_at_utc": "2026-11-02T15:58:43.608Z",
-    "scheduled_for_utc": "2026-11-02T15:57:28.202Z",
-    "result": "no_new_patch_or_report_due",
-    "official_latest": "18.5",
-    "official_latest_update_en": "2026-10-27",
-    "official_latest_update_ko": "2026-10-28",
+    "checked_at_utc": "2026-11-04T19:58:24.827Z",
+    "scheduled_for_utc": "2026-11-04T19:56:29.157Z",
+    "result": "new_patch_statistics_still_unavailable",
+    "official_latest": "18.6",
+    "official_revision": "18.6|2026-11-03",
     "official_read_scope": {
-      "korean_lines": 326,
       "korean_complete": true,
-      "english_scope": "Latest mid-patch entries checked"
+      "english_complete": true,
+      "korean_body_unchanged": true
     },
     "metatft_current": "18.5c",
     "metatft_available_patches": [
-      "18.5c",
-      "18.5b"
+      "18.5c"
     ],
     "observed_boards": {
-      "comps": 5876416,
-      "units": 5881880
-    },
-    "previous_patch_boards": {
-      "comps": 1113616,
-      "units": 1111808
+      "comps": 6710072,
+      "units": 6708048
     },
     "page_checks": {
-      "comps_current": "2026-11-02T15:58:08.615Z",
-      "comps_previous": "2026-11-02T15:58:24.627Z",
-      "units_current": "2026-11-02T15:58:32.356Z",
-      "units_previous": "2026-11-02T15:58:43.608Z"
+      "comps": "2026-11-04T19:57:54.328Z",
+      "units": "2026-11-04T19:58:10.649Z"
+    },
+    "raw_filter_headers": {
+      "comps": "최근 업데이트:\n몇 초 전\n분석된 덱:\n6,710,072\n랭크\n18.5c\n지난 7일\n에메랄드+\n상황별\n",
+      "units": "최근 업데이트:\n몇 초 전\n분석된 덱:\n6,708,048\n랭크\n18.5c\n지난 7일\n에메랄드+\n"
+    },
+    "source_urls": {
+      "comps": "https://www.metatft.com/comps",
+      "units": "https://www.metatft.com/units"
     },
     "filters_observed": {
       "mode": "랭크",
       "rank": "에메랄드+",
-      "region": "No additional region restriction",
-      "window": "지난 7일"
+      "region": "지역 별도 제한 없음(사이트 기본값)",
+      "window": "지난 7일",
+      "unit_scope": "전체 성급·아이템",
+      "comp_scope": "상황별 꺼짐; 현재 UI 조합 분류"
     },
     "snapshot_collected": false,
-    "snapshot_reason": "Routine 00:57 KST poll. November 2 baseline remains last successful full capture; November 3 09:00 KST baseline is not yet due. No new official balance revision or MetaTFT patch and no pending report stage.",
-    "next_followup_due_utc": null,
-    "next_baseline_capture_kst": "2026-11-03T09:00:00+09:00",
-    "notification": "DONT_NOTIFY",
-    "quality_notes": [
-      "Current and previous patches separately selected on comps and units; matching ranked, Emerald+ and last-7-day filters confirmed.",
-      "Previous-patch page read after loaded statistics appeared; board totals and timestamps recorded separately.",
-      "No full-table capture or new conclusion-reversal assessment claimed for this routine poll. Last successful full snapshots, daily report and completed stages preserved."
-    ]
+    "requested_patch_snapshot_collected": false,
+    "snapshot_reason": "Routine 04:56 KST retry. Initial 18.6 statistics still unavailable; 01:55 full 18.5c baseline preserved. Daily 09:00 capture not yet due.",
+    "next_followup_due_utc": "2026-11-05T16:54:03.000Z",
+    "next_baseline_capture_kst": "2026-11-05T09:00:00+09:00",
+    "notification": "NOTIFY",
+    "notification_reason": "New 18.6 official outlook and first data-availability failure were saved before prior run was interrupted; no completed announcement notification exists in old state."
   },
   "last_full_capture": {
-    "checked_at_utc": "2026-11-02T00:05:47Z",
-    "scheduled_for_utc": "2026-11-01T23:56:43.018Z",
-    "result": "daily_baseline_saved_no_new_patch",
-    "official_latest": "18.5",
-    "official_latest_update_en": "2026-10-27",
-    "official_latest_update_ko": "2026-10-28",
+    "checked_at_utc": "2026-11-04T16:59:27Z",
+    "scheduled_for_utc": "2026-11-04T16:51:08.191Z",
+    "result": "partial_success_new_official_patch_statistics_unavailable",
+    "official_latest": "18.6",
     "official_read_scope": {
-      "korean_lines": 326,
       "korean_complete": true,
-      "english_scope": "Latest mid-patch entries checked"
+      "english_complete": true,
+      "korean_method": "rendered browser",
+      "additional_patch_entries": 0
     },
     "metatft_current": "18.5c",
     "metatft_available_patches": [
-      "18.5c",
-      "18.5b"
+      "18.5c"
     ],
     "observed_boards": {
-      "comps": 5179816,
-      "units": 5182648
-    },
-    "previous_patch_boards": {
-      "comps": 1866912,
-      "units": 1842880
+      "comps": 6720104,
+      "units": 6716232
     },
     "page_checks": {
-      "comps_current": "2026-11-02T00:00:17.494Z",
-      "comps_previous": "2026-11-02T00:01:43.910Z",
-      "units_current": "2026-11-02T00:01:54.501Z",
-      "units_previous": "2026-11-02T00:02:48.270Z"
+      "comps": "2026-11-04T16:55:35.942Z",
+      "units": "2026-11-04T16:55:47.314Z"
     },
     "filters_observed": {
       "mode": "랭크",
@@ -257,42 +339,46 @@
       "comp_scope": "상황별 꺼짐; 현재 UI 조합 분류"
     },
     "snapshot_collected": true,
-    "snapshot_reason": "Daily 09:00 baseline finalized after 09:00 from an early 08:56 trigger; actual capture timestamps retained. Initial/24h/72h stages remain complete. No duplicate report notification.",
+    "requested_patch_snapshot_collected": false,
+    "requested_patch": "18.6",
     "observed_rows": {
-      "comps": 45,
+      "comps": 46,
       "units": 65
     },
     "comp_completeness": {
       "comp_row_counts_at_end": [
-        45,
-        45,
-        45
+        46,
+        46,
+        46
       ],
-      "comp_dom_rows": 45,
-      "rendered_stat_rows": 45,
-      "comp_list_children": 54,
+      "comp_dom_rows": 46,
+      "rendered_stat_rows": 46,
+      "comp_list_children": 55,
       "advertisement_slots": 9,
       "empty_comp_placeholders": 0,
       "unit_rows": 65
     },
     "changes_since_previous_baseline": {
-      "max_comparable_comp_avg": 0.02,
-      "max_unit_avg": 0.01,
+      "max_comparable_comp_avg": 0.03,
+      "max_unit_avg": 0.03,
       "definition_changes_excluded": 2,
-      "new_comp_names": [],
-      "missing_comp_names": [],
+      "new_comp_names": [
+        "속사포 케일",
+        "속사포 케일 자야",
+        "악의 여단 모르가나"
+      ],
+      "missing_comp_names": [
+        "속사포 자야",
+        "악의 여단 엘리스"
+      ],
       "major_conclusion_reversal": false
     },
-    "next_followup_due_utc": null,
-    "next_baseline_capture_kst": "2026-11-03T09:00:00+09:00",
-    "notification": "DONT_NOTIFY",
+    "notification": "NOTIFY",
     "quality_notes": [
-      "Both single-patch tables captured fully: 45 rendered comp rows and 65 unit rows, stable final counts and zero empty non-ad placeholders.",
-      "Current minimum unit sample 82865 and previous 30634; comp samples unknown, comp pick unit unverified, unit top4 kept null.",
-      "Two changed comp definitions excluded from temporal comparison with November 1 baseline. Current B/C comp definitions match; no new or missing names.",
-      "No new official balance revision. Korean October 28 localization matches English October 27 update.",
-      "Same last-7-day filter has unequal patch exposure. Page totals, timestamps and source update labels recorded separately.",
-      "All four raw-text SHA-256 hashes matched the browser export. All nine raw, normalized, comparison and report files exactly read back from GitHub and local files before registering this baseline."
+      "46 actual comp rows stabilized three times; 55 list children, 9 ads, zero empty rows; 65 unit rows.",
+      "Raw source hashes matched browser export; nine data/report files read back exactly locally and remotely before registering stage.",
+      "18.5b disappeared from both menus, so last successful November 2 snapshot used with collection-date/window limitation.",
+      "18.6 statistics unavailable; no post-18.6 metric or causal conclusion claimed."
     ]
   },
   "official_revision_history": {
@@ -309,11 +395,27 @@
       ],
       "content_sha256": null,
       "locale_note": "Korean latest update heading: 2026-10-23; English heading: October 22nd. Balance changes match; do not treat the date-label difference as a new patch."
+    },
+    "18.5|2026-10-27": {
+      "patch": "18.5",
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5/",
+      "published_at": "2026-10-20T18:00:00Z",
+      "latest_update_date_as_displayed": "2026-10-27",
+      "revision_key": "18.5|2026-10-27",
+      "revision_summary": [
+        "카직스 기본 피해량 250/345/500→230/310/450, 고립 피해량 280/390/590→250/350/530",
+        "덩굴정령 방어력 무시: 주문력 계수 25%→10%, 기본 수치 25%→30%",
+        "정의의 손길 모든 피해 흡혈 15%→12%, 찬란한 버전 30%→25%"
+      ],
+      "content_sha256": null,
+      "locale_note": "Korean October 28 entry now contains the same balance changes as English October 27. Localization date difference is not a new revision; retain 18.5|2026-10-27.",
+      "korean_url": "https://teamfighttactics.leagueoflegends.com/ko-kr/news/game-updates/teamfight-tactics-patch-18-5/",
+      "korean_latest_update_date_as_displayed": "2026-10-28"
     }
   },
   "remote_sync": {
     "status": "data_verified",
-    "data_commit": "85ced57caf6f5733318ed58e57b744c75945592b",
+    "data_commit": "f82aef1caa95b15613758e81948273842430c805",
     "verified_files": 9
   },
   "followup_history": [
@@ -327,6 +429,18 @@
       "status": "completed",
       "completed_at_utc": "2026-10-31T04:10:39Z",
       "report": "reports/18.5c-72h-20261031.md"
+    }
+  ],
+  "failure_history": [
+    {
+      "at_utc": "2026-11-04T16:55:47.314Z",
+      "code": "new_patch_statistics_unavailable",
+      "consecutive": 1
+    },
+    {
+      "at_utc": "2026-11-04T19:58:10.649Z",
+      "code": "new_patch_statistics_unavailable",
+      "consecutive": 2
     }
   ]
 }
