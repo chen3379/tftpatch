@@ -1,0 +1,54 @@
+{
+  "scheduled_for_utc": "2026-11-04T23:57:36.940Z",
+  "scheduled_baseline_kst": "2026-11-05T09:00:00+09:00",
+  "stage": "daily",
+  "purpose": "09:00 daily baseline. Official 18.6 stats unavailable for third consecutive check; only 18.5c exposed on both pages.",
+  "available_patches": [
+    "18.5c"
+  ],
+  "official": {
+    "patch": "18.6",
+    "revision_key": "18.6|2026-11-03",
+    "korean_url": "https://teamfighttactics.leagueoflegends.com/ko-kr/news/game-updates/teamfight-tactics-patch-18-6/",
+    "english_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-6/",
+    "full_korean_read": true,
+    "full_english_read": true,
+    "additional_patch_entries": [],
+    "korean_body_unchanged": true,
+    "checked_at": "2026-11-05T00:03:45.767Z"
+  },
+  "pages": {
+    "18.5c": {
+      "comps": {
+        "file": "data/raw/comps-set18-18.5c-20261105-0900.txt",
+        "captured_at": "2026-11-05T00:03:04.740Z",
+        "rows": 46,
+        "rendered_stat_rows": 46,
+        "stable_counts": [
+          46,
+          46,
+          46
+        ],
+        "children": 55,
+        "ads": 9,
+        "empty": 0
+      },
+      "units": {
+        "file": "data/raw/units-set18-18.5c-20261105-0900.txt",
+        "captured_at": "2026-11-05T00:03:21.048Z",
+        "rows": 65
+      }
+    }
+  },
+  "previous_patch_fallback": {
+    "patch": "18.5b",
+    "snapshot": "data/snapshots/set18-18.5b-20261102-0900.json",
+    "reason": "No longer selectable; different collection dates and rolling windows."
+  },
+  "filter_verification": "Emerald, Diamond, Master, Grandmaster, Challenger selected; others unchecked. Final header Emerald+; ranked and last 7 days. Capture began only after correct filter applied.",
+  "raw_sha256": {
+    "data/raw/comps-set18-18.5c-20261105-0900.txt": "957240efa0db1f9fa52135cb8a368ee5bf22d0d7cdd58559fbef73f37bfb26dd",
+    "data/raw/units-set18-18.5c-20261105-0900.txt": "4ae1d20c8333c957b39a3a546e471e6bbe08b3d37a1ba7e15113464dcbb35c0b",
+    "data/raw/official-18.6-ko-20261105-0900.txt": "873b17dae6ce9490a99dbd06a18fd6b4d12438fea8329d13d9ee4f55573a4b1d"
+  }
+}
