@@ -30,13 +30,14 @@
     "korean_read_method": "Rendered browser; web reader failed",
     "raw_file": "data/raw/official-18.6-ko-20261105-0155.txt",
     "raw_sha256": "eb5e3514add448d52bf44f01ae0a7f205ed95c48e2e9889c08ffc8e0617c1600",
-    "deployment_status": "Exact live deployment time and region completion unconfirmed. Official notes describe longer deployment with standalone client.",
-    "metatft_current": "18.5c",
+    "deployment_status": "18.6 observed in MetaTFT ranked statistics. Exact deployment time and regional completion remain unconfirmed.",
+    "metatft_current": "18.6",
     "available_patches": [
+      "18.6",
       "18.5c"
     ],
-    "analysis_status": "initial_outlook_saved; statistics unavailable for three consecutive checks",
-    "report": "reports/18.6-outlook-20261105.md",
+    "analysis_status": "initial_statistics_complete",
+    "report": "reports/18.6-initial-20261105.md",
     "baseline_report": "reports/20261105-0155-baseline.md",
     "revision_summary": [
       "니달리 공격력/주문력 형태 상향; 말파이트·감시자 보호막 강화",
@@ -49,18 +50,20 @@
     "latest_update_date_as_displayed": "2026-11-03",
     "korean_latest_update_date_as_displayed": "2026-11-04",
     "content_sha256": null,
-    "status": "official_notes_published; 18.6 statistics unavailable",
-    "latest_report": "reports/18.6-outlook-20261105.md",
+    "status": "live_patch_observed_on_metatft",
+    "latest_report": "reports/18.6-initial-20261105.md",
     "locale_note": "EN November 3 and KO November 4 refer to the same 18.6 notes; exact live deployment time unconfirmed.",
-    "last_checked_at_utc": "2026-11-05T00:03:45.767Z"
+    "last_checked_at_utc": "2026-11-05T09:47:35Z",
+    "outlook_report": "reports/18.6-outlook-20261105.md",
+    "last_read_method": "Full English/Korean official web pages; Korean 175 lines; no additional balance entry"
   },
   "metatft": {
     "set": "18",
-    "current_patch": "18.5c",
-    "previous_patch": "18.5b",
-    "latest_snapshot": "data/snapshots/set18-18.5c-20261105-0900.json",
-    "previous_snapshot": "data/snapshots/set18-18.5b-20261102-0900.json",
-    "capture_finalized_at": "2026-11-05T00:03:21.048Z",
+    "current_patch": "18.6",
+    "previous_patch": "18.5c",
+    "latest_snapshot": "data/snapshots/set18-18.6-20261105-1836.json",
+    "previous_snapshot": "data/snapshots/set18-18.5c-20261105-1836.json",
+    "capture_finalized_at": "2026-11-05T09:43:13.744Z",
     "daily_baselines": {
       "2026-10-27": {
         "snapshot": "data/snapshots/set18-18.5b-20261027-1842.json",
@@ -129,7 +132,7 @@
         "verified_remote_files": 7
       }
     },
-    "current_revision_detected_at": "2026-10-27T23:54:06Z",
+    "current_revision_detected_at": "2026-11-04T16:54:03Z",
     "capture_gaps": [
       {
         "date_kst": "2026-10-30",
@@ -158,9 +161,10 @@
         "reason": "No successful stored capture; cause unconfirmed. Current data cannot reconstruct past observations."
       }
     ],
-    "latest_report": "reports/20261105-0900-baseline.md",
-    "latest_comparison": "data/snapshots/comparison-18.5b-18.5c-20261105-0900.json",
+    "latest_report": "reports/18.6-initial-20261105.md",
+    "latest_comparison": "data/snapshots/comparison-18.5c-18.6-20261105-1836.json",
     "available_patches": [
+      "18.6",
       "18.5c"
     ],
     "pre_patch_baselines": {
@@ -183,7 +187,8 @@
         "verified_remote_files": 9,
         "timing": "November 5 01:55 KST ad-hoc baseline. November 5 09:00 daily baseline remains due."
       }
-    ]
+    ],
+    "first_current_patch_stat_capture_at": "2026-11-05T09:40:12.716Z"
   },
   "reported": {
     "18.5|2026-10-23|existing-patch-baseline": {
@@ -248,19 +253,33 @@
       "data_commit": "f7b1556d4f0c26c52c62c10061d4fdc3e47d053a",
       "verified_remote_files": 7,
       "note": "Third consecutive 18.6 data-availability failure. No initial statistical completion claimed."
+    },
+    "18.6|2026-11-03|initial": {
+      "status": "complete",
+      "report": "reports/18.6-initial-20261105.md",
+      "comparison": "data/snapshots/comparison-18.5c-18.6-20261105-1836.json",
+      "current_snapshot": "data/snapshots/set18-18.6-20261105-1836.json",
+      "previous_snapshot": "data/snapshots/set18-18.5c-20261105-1836.json",
+      "date_kst": "2026-11-05",
+      "data_commit": "ef57e49549beace00c31a9a493fd73b1a445925b",
+      "verified_remote_files": 9,
+      "capture_finalized_at": "2026-11-05T09:43:13.744Z",
+      "completed_at_utc": "2026-11-05T09:47:35Z",
+      "anchor_at_utc": "2026-11-04T16:54:03Z",
+      "anchor_kind": "official detection; exact deployment time unconfirmed",
+      "note": "First full 18.6 statistical observation after three source-availability failures. Fresh 18.5c comparison. Separate from completed announcement; does not complete 24h/72h."
+    },
+    "18.6|2026-11-03|recovery": {
+      "status": "complete",
+      "report": "reports/18.6-initial-20261105.md",
+      "date_kst": "2026-11-05",
+      "completed_at_utc": "2026-11-05T09:47:35Z",
+      "data_commit": "ef57e49549beace00c31a9a493fd73b1a445925b",
+      "verified_remote_files": 9,
+      "note": "Recovery combined with initial observation notification."
     }
   },
   "pending_followups": [
-    {
-      "revision_key": "18.6|2026-11-03",
-      "metatft_patch": "18.6",
-      "stage": "initial-statistics",
-      "status": "waiting_for_statistics",
-      "due_at_utc": "2026-11-04T16:54:03Z",
-      "anchor_at_utc": "2026-11-04T16:54:03Z",
-      "anchor_kind": "detection; deployment time unconfirmed",
-      "reason": "Both MetaTFT menus expose only 18.5c"
-    },
     {
       "revision_key": "18.6|2026-11-03",
       "metatft_patch": "18.6",
@@ -280,45 +299,39 @@
       "due_at_utc": "2026-11-07T16:54:03.000Z"
     }
   ],
-  "consecutive_failures": 3,
-  "last_error": {
-    "code": "new_patch_statistics_unavailable",
-    "first_at_utc": "2026-11-04T16:55:47.314Z",
-    "last_at_utc": "2026-11-05T00:03:21.048Z",
-    "patch": "18.6",
-    "details": "Third consecutive check: official 18.6 statistics unavailable because both MetaTFT single-patch menus expose only 18.5c. Current 18.5c daily baseline collection succeeded; initial 18.6 analysis remains incomplete.",
-    "notified": "first failure with new official outlook",
-    "last_notification_stage": "failure-3",
-    "last_notified_at_utc": "2026-11-05T00:05:24Z"
-  },
+  "consecutive_failures": 0,
+  "last_error": null,
   "last_check": {
-    "checked_at_utc": "2026-11-05T00:05:24Z",
-    "scheduled_for_utc": "2026-11-04T23:57:36.940Z",
-    "result": "daily_baseline_saved_requested_patch_statistics_unavailable_3",
+    "checked_at_utc": "2026-11-05T09:47:35Z",
+    "scheduled_for_utc": "2026-11-05T09:36:30.293Z",
+    "result": "initial_18.6_statistics_complete_and_source_recovered",
     "official_latest": "18.6",
     "official_revision": "18.6|2026-11-03",
     "official_read_scope": {
       "korean_complete": true,
       "english_complete": true,
-      "korean_method": "rendered browser after web reader failure",
-      "korean_body_unchanged": true,
+      "korean_lines": 175,
+      "method": "official web pages",
       "additional_patch_entries": 0
     },
-    "metatft_current": "18.5c",
+    "metatft_current": "18.6",
     "metatft_available_patches": [
+      "18.6",
       "18.5c"
     ],
     "observed_boards": {
-      "comps": 6688976,
-      "units": 6666296
+      "comps": 178760,
+      "units": 182824
     },
     "previous_patch_boards": {
-      "comps": 1866912,
-      "units": 1842880
+      "comps": 6368600,
+      "units": 6353216
     },
     "page_checks": {
-      "comps": "2026-11-05T00:03:04.740Z",
-      "units": "2026-11-05T00:03:21.048Z"
+      "comps_current": "2026-11-05T09:40:12.716Z",
+      "comps_previous": "2026-11-05T09:42:23.320Z",
+      "units_current": "2026-11-05T09:42:41.246Z",
+      "units_previous": "2026-11-05T09:43:13.744Z"
     },
     "source_urls": {
       "comps": "https://www.metatft.com/comps",
@@ -333,9 +346,9 @@
       "comp_scope": "상황별 꺼짐; 현재 UI 조합 분류"
     },
     "snapshot_collected": true,
-    "requested_patch_snapshot_collected": false,
+    "requested_patch_snapshot_collected": true,
     "requested_patch": "18.6",
-    "snapshot_reason": "09:00 daily current-patch baseline saved. Requested 18.6 statistics unavailable for the third consecutive check; no unchanged/healthy or initial-complete claim.",
+    "snapshot_reason": "Initial statistical observation and recovery. Both current and previous patch freshly selected and fully collected under matching filters.",
     "observed_rows": {
       "comps": 46,
       "units": 65
@@ -353,60 +366,77 @@
       "empty_comp_placeholders": 0,
       "unit_rows": 65
     },
-    "changes_since_previous_baseline": {
-      "reference_snapshot": "data/snapshots/set18-18.5c-20261105-0155.json",
-      "max_comparable_comp_avg": 0.01,
-      "max_unit_avg": 0.01,
-      "definition_changes_excluded": 0,
-      "new_comp_names": [
-        "속사포 자야"
+    "previous_comp_completeness": {
+      "comp_row_counts_at_end": [
+        46,
+        46,
+        46
       ],
-      "missing_comp_names": [
-        "속사포 케일 자야"
-      ],
-      "major_conclusion_reversal": false
+      "comp_dom_rows": 46,
+      "rendered_stat_rows": 46,
+      "comp_list_children": 55,
+      "advertisement_slots": 9,
+      "empty_comp_placeholders": 0,
+      "unit_rows": 65
     },
+    "comparison_integrity": {
+      "definition_changes": 0,
+      "new_comp_names": [],
+      "missing_comp_names": [],
+      "min_unit_n_current": 2784,
+      "min_unit_n_previous": 99930,
+      "low_sample_units": []
+    },
+    "expected_observed_mismatches": [
+      "Nidalee buff outlook vs worse Moonlight/Primal comps and overall unit average",
+      "Blossom vertical buff vs worse Blossom Sett comp; breakpoint-specific effect unmeasured",
+      "Gnar lower average but lower win rate and sharp pick-rate change"
+    ],
     "next_followup_due_utc": "2026-11-05T16:54:03.000Z",
     "next_baseline_capture_kst": "2026-11-06T09:00:00+09:00",
     "notification": "NOTIFY",
-    "notification_reason": "Third consecutive requested-patch statistics unavailable; one failure-3 alert.",
+    "notification_reason": "Initial 18.6 statistics now available and source recovered; single combined report.",
     "quality_notes": [
-      "Final ranked/Emerald+/last 7 days headers verified. Tier checkboxes explicitly inspected and capture started after correct filters were applied.",
-      "46 actual comp rows stable three times, 55 list elements with 9 ads and zero empty rows; 65 parsed units.",
-      "18.5b no longer selectable; last successful November 2 snapshot used with differing collection dates and observation-window limitation.",
-      "Current unit minimum sample 104953; comp sample and unit top4 remain null. Comp pick unit unverified.",
-      "Three raw SHA-256 values matched browser export. All seven raw, JSON, comparison and report files read back exactly from local disk and GitHub before registering baseline.",
-      "Initial 18.6 statistics, 24h and 72h stages remain pending. Existing completed stages and gap history preserved."
+      "Both single-patch tables have 46 actual comp rows and 65 units. Comps scrolled to bottom, stable final counts 46/46/46; 55 list elements, 9 ads, zero empty rows.",
+      "Fresh patch selections use ranked, Emerald+, last 7 days and no additional region restriction. Exact effective date bounds and deployment time remain unconfirmed.",
+      "No comp definitions differ between the current two UI classifications. Labels may still aggregate stars/items/operating patterns.",
+      "Comp samples unknown; pick units unverified; unit top4 null. All current unit samples exceed 1000, without claiming statistical significance.",
+      "Gnar pick rate 22.5% to 4.4% flagged as a major aggregate shift; average improvement alone is not a recommendation.",
+      "All four raw SHA-256 hashes matched browser export; all nine raw/JSON/comparison/report artifacts exactly re-read locally and from GitHub before stage completion.",
+      "Earlier baseline and failure history preserved. 24h and 72h follow-ups retain official-detection anchor and remain pending."
     ]
   },
   "last_full_capture": {
-    "checked_at_utc": "2026-11-05T00:05:24Z",
-    "scheduled_for_utc": "2026-11-04T23:57:36.940Z",
-    "result": "daily_baseline_saved_requested_patch_statistics_unavailable_3",
+    "checked_at_utc": "2026-11-05T09:47:35Z",
+    "scheduled_for_utc": "2026-11-05T09:36:30.293Z",
+    "result": "initial_18.6_statistics_complete_and_source_recovered",
     "official_latest": "18.6",
     "official_revision": "18.6|2026-11-03",
     "official_read_scope": {
       "korean_complete": true,
       "english_complete": true,
-      "korean_method": "rendered browser after web reader failure",
-      "korean_body_unchanged": true,
+      "korean_lines": 175,
+      "method": "official web pages",
       "additional_patch_entries": 0
     },
-    "metatft_current": "18.5c",
+    "metatft_current": "18.6",
     "metatft_available_patches": [
+      "18.6",
       "18.5c"
     ],
     "observed_boards": {
-      "comps": 6688976,
-      "units": 6666296
+      "comps": 178760,
+      "units": 182824
     },
     "previous_patch_boards": {
-      "comps": 1866912,
-      "units": 1842880
+      "comps": 6368600,
+      "units": 6353216
     },
     "page_checks": {
-      "comps": "2026-11-05T00:03:04.740Z",
-      "units": "2026-11-05T00:03:21.048Z"
+      "comps_current": "2026-11-05T09:40:12.716Z",
+      "comps_previous": "2026-11-05T09:42:23.320Z",
+      "units_current": "2026-11-05T09:42:41.246Z",
+      "units_previous": "2026-11-05T09:43:13.744Z"
     },
     "source_urls": {
       "comps": "https://www.metatft.com/comps",
@@ -421,9 +451,9 @@
       "comp_scope": "상황별 꺼짐; 현재 UI 조합 분류"
     },
     "snapshot_collected": true,
-    "requested_patch_snapshot_collected": false,
+    "requested_patch_snapshot_collected": true,
     "requested_patch": "18.6",
-    "snapshot_reason": "09:00 daily current-patch baseline saved. Requested 18.6 statistics unavailable for the third consecutive check; no unchanged/healthy or initial-complete claim.",
+    "snapshot_reason": "Initial statistical observation and recovery. Both current and previous patch freshly selected and fully collected under matching filters.",
     "observed_rows": {
       "comps": 46,
       "units": 65
@@ -441,30 +471,44 @@
       "empty_comp_placeholders": 0,
       "unit_rows": 65
     },
-    "changes_since_previous_baseline": {
-      "reference_snapshot": "data/snapshots/set18-18.5c-20261105-0155.json",
-      "max_comparable_comp_avg": 0.01,
-      "max_unit_avg": 0.01,
-      "definition_changes_excluded": 0,
-      "new_comp_names": [
-        "속사포 자야"
+    "previous_comp_completeness": {
+      "comp_row_counts_at_end": [
+        46,
+        46,
+        46
       ],
-      "missing_comp_names": [
-        "속사포 케일 자야"
-      ],
-      "major_conclusion_reversal": false
+      "comp_dom_rows": 46,
+      "rendered_stat_rows": 46,
+      "comp_list_children": 55,
+      "advertisement_slots": 9,
+      "empty_comp_placeholders": 0,
+      "unit_rows": 65
     },
+    "comparison_integrity": {
+      "definition_changes": 0,
+      "new_comp_names": [],
+      "missing_comp_names": [],
+      "min_unit_n_current": 2784,
+      "min_unit_n_previous": 99930,
+      "low_sample_units": []
+    },
+    "expected_observed_mismatches": [
+      "Nidalee buff outlook vs worse Moonlight/Primal comps and overall unit average",
+      "Blossom vertical buff vs worse Blossom Sett comp; breakpoint-specific effect unmeasured",
+      "Gnar lower average but lower win rate and sharp pick-rate change"
+    ],
     "next_followup_due_utc": "2026-11-05T16:54:03.000Z",
     "next_baseline_capture_kst": "2026-11-06T09:00:00+09:00",
     "notification": "NOTIFY",
-    "notification_reason": "Third consecutive requested-patch statistics unavailable; one failure-3 alert.",
+    "notification_reason": "Initial 18.6 statistics now available and source recovered; single combined report.",
     "quality_notes": [
-      "Final ranked/Emerald+/last 7 days headers verified. Tier checkboxes explicitly inspected and capture started after correct filters were applied.",
-      "46 actual comp rows stable three times, 55 list elements with 9 ads and zero empty rows; 65 parsed units.",
-      "18.5b no longer selectable; last successful November 2 snapshot used with differing collection dates and observation-window limitation.",
-      "Current unit minimum sample 104953; comp sample and unit top4 remain null. Comp pick unit unverified.",
-      "Three raw SHA-256 values matched browser export. All seven raw, JSON, comparison and report files read back exactly from local disk and GitHub before registering baseline.",
-      "Initial 18.6 statistics, 24h and 72h stages remain pending. Existing completed stages and gap history preserved."
+      "Both single-patch tables have 46 actual comp rows and 65 units. Comps scrolled to bottom, stable final counts 46/46/46; 55 list elements, 9 ads, zero empty rows.",
+      "Fresh patch selections use ranked, Emerald+, last 7 days and no additional region restriction. Exact effective date bounds and deployment time remain unconfirmed.",
+      "No comp definitions differ between the current two UI classifications. Labels may still aggregate stars/items/operating patterns.",
+      "Comp samples unknown; pick units unverified; unit top4 null. All current unit samples exceed 1000, without claiming statistical significance.",
+      "Gnar pick rate 22.5% to 4.4% flagged as a major aggregate shift; average improvement alone is not a recommendation.",
+      "All four raw SHA-256 hashes matched browser export; all nine raw/JSON/comparison/report artifacts exactly re-read locally and from GitHub before stage completion.",
+      "Earlier baseline and failure history preserved. 24h and 72h follow-ups retain official-detection anchor and remain pending."
     ]
   },
   "official_revision_history": {
@@ -501,8 +545,8 @@
   },
   "remote_sync": {
     "status": "data_verified",
-    "data_commit": "f7b1556d4f0c26c52c62c10061d4fdc3e47d053a",
-    "verified_files": 7
+    "data_commit": "ef57e49549beace00c31a9a493fd73b1a445925b",
+    "verified_files": 9
   },
   "followup_history": [
     {
@@ -515,6 +559,18 @@
       "status": "completed",
       "completed_at_utc": "2026-10-31T04:10:39Z",
       "report": "reports/18.5c-72h-20261031.md"
+    },
+    {
+      "revision_key": "18.6|2026-11-03",
+      "metatft_patch": "18.6",
+      "stage": "initial-statistics",
+      "status": "completed",
+      "due_at_utc": "2026-11-04T16:54:03Z",
+      "anchor_at_utc": "2026-11-04T16:54:03Z",
+      "anchor_kind": "detection; deployment time unconfirmed",
+      "reason": "Both MetaTFT menus expose only 18.5c",
+      "completed_at_utc": "2026-11-05T09:47:35Z",
+      "report": "reports/18.6-initial-20261105.md"
     }
   ],
   "failure_history": [
@@ -533,6 +589,24 @@
       "code": "new_patch_statistics_unavailable",
       "consecutive": 3,
       "report": "reports/20261105-0900-baseline.md"
+    },
+    {
+      "at_utc": "2026-11-05T09:43:13.744Z",
+      "code": "new_patch_statistics_recovered",
+      "previous_consecutive": 3,
+      "report": "reports/18.6-initial-20261105.md"
+    }
+  ],
+  "incident_history": [
+    {
+      "code": "new_patch_statistics_unavailable",
+      "patch": "18.6",
+      "first_at_utc": "2026-11-04T16:55:47.314Z",
+      "last_failure_at_utc": "2026-11-05T00:03:21.048Z",
+      "consecutive_failures": 3,
+      "status": "recovered",
+      "recovered_at_utc": "2026-11-05T09:43:13.744Z",
+      "report": "reports/18.6-initial-20261105.md"
     }
   ]
 }
