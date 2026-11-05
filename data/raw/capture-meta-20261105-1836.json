@@ -1,0 +1,69 @@
+{
+  "scheduled_for_utc": "2026-11-05T09:36:30.293Z",
+  "stage": "initial-statistics",
+  "purpose": "18.6 source availability recovered; fresh 18.5c versus 18.6 full comparison",
+  "available_patches": [
+    "18.6",
+    "18.5c"
+  ],
+  "official": {
+    "patch": "18.6",
+    "revision_key": "18.6|2026-11-03",
+    "full_korean_read": true,
+    "full_english_read": true,
+    "additional_patch_entries": [],
+    "korean_url": "https://teamfighttactics.leagueoflegends.com/ko-kr/news/game-updates/teamfight-tactics-patch-18-6/",
+    "english_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-6/",
+    "exact_deployment_time": null
+  },
+  "pages": {
+    "18.6": {
+      "comps": {
+        "file": "data/raw/comps-set18-18.6-20261105-1836.txt",
+        "captured_at": "2026-11-05T09:40:12.716Z",
+        "rows": 46,
+        "rendered_stat_rows": 46,
+        "stable_counts": [
+          46,
+          46,
+          46
+        ],
+        "children": 55,
+        "ads": 9,
+        "empty": 0
+      },
+      "units": {
+        "file": "data/raw/units-set18-18.6-20261105-1836.txt",
+        "captured_at": "2026-11-05T09:42:41.246Z",
+        "rows": 65
+      }
+    },
+    "18.5c": {
+      "comps": {
+        "file": "data/raw/comps-set18-18.5c-20261105-1836.txt",
+        "captured_at": "2026-11-05T09:42:23.320Z",
+        "rows": 46,
+        "rendered_stat_rows": 46,
+        "stable_counts": [
+          46,
+          46,
+          46
+        ],
+        "children": 55,
+        "ads": 9,
+        "empty": 0
+      },
+      "units": {
+        "file": "data/raw/units-set18-18.5c-20261105-1836.txt",
+        "captured_at": "2026-11-05T09:43:13.744Z",
+        "rows": 65
+      }
+    }
+  },
+  "raw_sha256": {
+    "data/raw/comps-set18-18.6-20261105-1836.txt": "442c794c5fcb6f440c395cd83e3dfa9e3d57efc36af30e24593d22bd8e54aa60",
+    "data/raw/units-set18-18.6-20261105-1836.txt": "6f284278fe7ff6f6e58fe081f7015310cd656d5cb7219cdf5b1d839000dcb499",
+    "data/raw/comps-set18-18.5c-20261105-1836.txt": "cd50e3a5cb6936f114b9c3984006dad1fe2dc8a938f5ee1c40794f9caaaaee06",
+    "data/raw/units-set18-18.5c-20261105-1836.txt": "f6fdcce808db2d2d96a57c5e4be2ec3ecd8c2b8bb3f5043335c82dff74e35df6"
+  }
+}
